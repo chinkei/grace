@@ -1,4 +1,50 @@
 <?php
+if ( ! defined('APP_NAME')) exit('No direct script access allowed');
+
+/**************************************************************************
+ * Grace web development framework for PHP 5.1.2 or newer
+ *
+ * @author      陈佳(chinkei) <cj1655@163.com>
+ * @copyright   Copyright (c) 2012-2013, 陈佳(chinkei)
+ **************************************************************************/
+
+/**
+ * 实现命名空间功能
+ *
+ * @param  array $className 类名
+ * @param  array $location  地址前缀
+ * @return void
+ */
+function uses($className, $location = LIB_PATH)
+{
+	Grace_Application_Application::uses($className, $location);
+}
+
+/**
+ * 获取类对象
+ * 
+ * @param  string $class 类名
+ * @param  bool   $isRequire 引入方式 require/include
+ * @param  string $base 路径前缀
+ * @return object
+ */
+function load_class($class, $isRequire = TRUE, $base = LIB_PATH)
+{
+	static $_load_class = array();
+	
+	if ( ! isset($_load_class[$class]) ) {
+	
+		if ( FALSE === import_class($class, $isRequire, $base) ) {
+			return FALSE;
+		}
+		
+		$_instace = new $class;
+		is_object($_instace) && $_load_class[$class] = $_instace;
+	}
+	
+	return $_load_class[$class];
+}
+
 /**
  * 引入文件
  * TODO   该方法只适用于后缀.php的文件(不适用.class.php, .inc.php后缀文件)
@@ -25,6 +71,32 @@ function import_file($path, $isRequire = TRUE, $base = LIB_PATH)
 	return FALSE;
 }
 
+/**
+ * 载入类文件
+ * 
+ * @param  string $class 类名
+ * @param  bool   $isRequire 引入方式 require/include
+ * @param  string $base 路径前缀
+ * @return bool
+ */
+function import_class($class, $isRequire = TRUE, $base = LIB_PATH)
+{
+	$arrPath  = explode('_', trim($class, '_'));
+	$filePath = $base . '/' . implode('/', array_map('ucfirst', $arrPath) ) . '.php';
+	
+	if ( ! file_exists($filePath) ) {
+		throw new Exception('file : "' . implode('/', array_map('ucfirst', $arrPath) ) . '" is not exists');
+	}
+	return ( $isRequire === TRUE ) ? require $filePath : include $filePath;
+}
+
+/**
+ * 格式化字符串
+ * 
+ * @param  string $value 要格式化的字符串
+ * @param  array  $args  参数数组
+ * @return string
+ */
 function _vf($value, $args = NULL)
 {
 	if ( !$value ) {
@@ -42,6 +114,12 @@ function _vf($value, $args = NULL)
 	
 }
 
+/**
+ * 载入布局视图
+ * 
+ * @param  array $args 参数
+ * @return void
+ */
 function load_layout($args = array())
 {
 	$counts = count($args);
@@ -53,34 +131,6 @@ function load_layout($args = array())
 	call_user_func_array(array($layout, 'render'), $args);
 }
 
-function load_class($class, $isRequire = TRUE, $base = LIB_PATH)
-{
-	static $_load_class = array();
-	
-	if ( ! isset($_load_class[$class]) ) {
-	
-		if ( FALSE === import_class($class, $isRequire, $base) ) {
-			return FALSE;
-		}
-		
-		$_instace = new $class;
-		is_object($_instace) && $_load_class[$class] = $_instace;
-	}
-	
-	return $_load_class[$class];
-}
-
-function import_class($class, $isRequire = TRUE, $base = LIB_PATH)
-{
-	$arrPath  = explode('_', trim($class, '_'));
-	$filePath = $base . '/' . implode('/', array_map('ucfirst', $arrPath) ) . '.php';
-	
-	if ( ! file_exists($filePath) ) {
-		throw new Exception('file : "' . implode('/', array_map('ucfirst', $arrPath) ) . '" is not exists');
-	}
-	return ( $isRequire === TRUE ) ? require $filePath : include $filePath;
-}
-
 /**
  * 获取当前控制器对象实例
  * 
@@ -90,10 +140,5 @@ function get_instance()
 {
 	uses('Grace_Mvc_Contrl_Controller');
 	return Grace_Mvc_Contrl_Controller::getInstance();
-}
-
-function uses($className, $location = LIB_PATH)
-{
-	Grace_Application_Application::uses($className, $location);
 }
 ?>

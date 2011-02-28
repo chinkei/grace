@@ -1,9 +1,23 @@
-<?php
+<?php if ( ! defined('APP_NAME')) exit('No direct script access allowed');
+
+/**************************************************************************
+ * Grace web development framework for PHP 5.1.2 or newer
+ *
+ * @author      陈佳(chinkei) <cj1655@163.com>
+ * @copyright   Copyright (c) 2012-2013, 陈佳(chinkei)
+ **************************************************************************/
+
 uses('Grace_Database_Db');
 uses('Grace_Mvc_View_View');
 uses('Grace_Mvc_View_Driver_Simple');
 uses('Grace_Mvc_View_Driver_Template');
 
+/**
+ * 加载类
+ * 
+ * @anchor 陈佳(chinkei) <cj1655@163.com>
+ * @package Load
+ */
 class Grace_Load_Load
 {
 	protected $_model    = array();
@@ -98,9 +112,9 @@ class Grace_Load_Load
 		
 	}
 	
-	public function helper()
+	public function helper($path, $base = LIB_PATH)
 	{
-		
+		import_file($path, TRUE, $base);
 	}
 }
 ?>

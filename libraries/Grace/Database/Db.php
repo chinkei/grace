@@ -1,6 +1,20 @@
-<?php
+<?php if ( ! defined('APP_NAME')) exit('No direct script access allowed');
+
+/**************************************************************************
+ * Grace web development framework for PHP 5.1.2 or newer
+ *
+ * @author      陈佳(chinkei) <cj1655@163.com>
+ * @copyright   Copyright (c) 2012-2013, 陈佳(chinkei)
+ **************************************************************************/
+
 uses('Grace_Configure_Driver');
 
+/**
+ * 数据库库抽象类
+ * 
+ * @anchor 陈佳(chinkei) <cj1655@163.com>
+ * @package Database
+ */
 abstract class Grace_Database_Db
 {
 	/**
@@ -230,7 +244,7 @@ abstract class Grace_Database_Db
 		return isset($this->_db_settings['db_prefix']) ? $this->_db_settings['db_prefix'] . $table : $table;
 	}
 	
-	// ---------------------------------------------- 子类需要实现的方法 START --------------------------------------------//
+	// ---------------------------------------------- 子类需要实现的方法 START -------------------------------------------- //
 	
 	/**
 	 * 连接数据库
@@ -359,6 +373,6 @@ abstract class Grace_Database_Db
 	 */
 	abstract public function getVersion();
 	
-	// ---------------------------------------------- 子类需要实现的方法  END  --------------------------------------------//
+	// ---------------------------------------------- 子类需要实现的方法  END  -------------------------------------------- //
 }
 ?>

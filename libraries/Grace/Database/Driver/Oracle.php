@@ -1,10 +1,17 @@
-<?php
-/**
- * PHP-Oracle Claw DB adapter
+<?php if ( ! defined('APP_NAME')) exit('No direct script access allowed');
+
+/**************************************************************************
+ * Grace web development framework for PHP 5.1.2 or newer
  *
- * @package claw.ext
- * @author Tomas Varaneckas <tomas [dot] varaneckas [at] gmail [dot] com>
- * @version $Id: OracleClawDB.php 145 2006-04-06 18:23:19Z metasite $
+ * @author      陈佳(chinkei) <cj1655@163.com>
+ * @copyright   Copyright (c) 2012-2013, 陈佳(chinkei)
+ **************************************************************************/
+
+/**
+ * Oracle数据库操作类
+ * 
+ * @anchor 陈佳(chinkei) <cj1655@163.com>
+ * @package Database
  */
 class Grace_Database_Driver_Oracle extends Grace_Database_Driver
 {

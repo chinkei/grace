@@ -1,4 +1,18 @@
-<?php
+<?php if ( ! defined('APP_NAME')) exit('No direct script access allowed');
+
+/**************************************************************************
+ * Grace web development framework for PHP 5.1.2 or newer
+ *
+ * @author      陈佳(chinkei) <cj1655@163.com>
+ * @copyright   Copyright (c) 2012-2013, 陈佳(chinkei)
+ **************************************************************************/
+
+/**
+ * 文件缓存类
+ * 
+ * @anchor  陈佳(chinkei) <cj1655@163.com>
+ * @package Cache
+ */
 class Grace_Cache_Driver_File extends Grace_Cache_Cache
 {
 	/**
@@ -37,7 +51,11 @@ class Grace_Cache_Driver_File extends Grace_Cache_Cache
 			$this->_cache_path = rtrim($settings['cache_path'], '/') . '/cache/';
 		}
 		
-		!is_dir($this->_cache_path) && @mkdir($this->_cache_path);
+		// 载入文件/文件夹助手
+		get_instance()->load->helper('File');
+		
+		// 创建缓存目录
+		dir_create($this->_cache_path);
 		
 		if ( !is_writable($this->_cache_path) ) {
 			// TODO
@@ -119,7 +137,8 @@ class Grace_Cache_Driver_File extends Grace_Cache_Cache
 			$path = rtrim($this->dir, '/').'/'.$group;
 		}
 		
-		$this->_dtePath($path);
+		// 遍历删除文件夹下所有文件
+		dir_delete($path);
 		
 		// 清除文件状态缓存
 		clearstatcache();
@@ -158,39 +177,6 @@ class Grace_Cache_Driver_File extends Grace_Cache_Cache
 		}
 		
 		return rtrim($this->_cache_path, '/').'/cache_' . $this->_getKey($key) . $postfix;
-	}
-	
-	/**
-	 * 递归删除缓存文件
-	 * 
-	 * @param  string $path 文件路径
-	 * @return void
-	 */
-	protected function _dtePath($path)
-	{
-		if ( is_dir($path) && ($dh = opendir($path)) ) {
-			while ( ($file = readdir($dh)) !== FALSE ) {
-				if($file == '.' || $file =='..') {
-					continue;
-				}
-				$this->_dtePath($file);
-			}
-			closedir($dh);
-			rmdir($path);
-		} else {
-			@unlink($path);
-		}
-	}
-	
-	/**
-	 * 获取处理后的缓存键值
-	 * 
-	 * @param  string $key
-	 * @return string 
-	 */
-	protected function _getKey($key)
-	{
-		return md5($this->_key_prefix.$key);
 	}
 }
 ?>

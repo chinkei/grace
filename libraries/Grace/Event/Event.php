@@ -1,4 +1,18 @@
-<?php
+<?php if ( ! defined('APP_NAME')) exit('No direct script access allowed');
+
+/**************************************************************************
+ * Grace web development framework for PHP 5.1.2 or newer
+ *
+ * @author      陈佳(chinkei) <cj1655@163.com>
+ * @copyright   Copyright (c) 2012-2013, 陈佳(chinkei)
+ **************************************************************************/
+
+/**
+ * 事件管理类
+ * 
+ * @anchor 陈佳(chinkei) <cj1655@163.com>
+ * @package Event
+ */
 class Grace_Event_Event
 {
 	/**
@@ -31,14 +45,14 @@ class Grace_Event_Event
     }
 	
 	/**
-     * Returns a list of all listeners for a eventKey in the order they should be called
+     * 取得事件监听列表
      *
-     * @param string $eventKey
+     * @param  string $evtName
      * @return array
      */
     protected function _fetch_listeners($evtName)
     {
-        if (empty($this->_listeners[$evtName])) {
+        if ( !isset($this->_listeners[$evtName]) || empty($this->_listeners[$evtName]) ) {
             return array();
         }
 		

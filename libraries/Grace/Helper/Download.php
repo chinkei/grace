@@ -8,14 +8,21 @@
  **************************************************************************/
 
 /**
- * 配置文件解析接口
+ * 文件下载处理助手
  * 
- * @anchor  陈佳(chinkei) <cj1655@163.com>
- * @package Config
+ * @anchor 陈佳(chinkei) <cj1655@163.com>
+ * @package Helper
  */
-interface Grace_Configure_Interface
-{
-	public function setPath($path);
-	public function read($key);
+ 
+/**
+ * 下载文件
+ *
+ * @param  string $path 路径
+ * @return bool
+ */
+if ( !function_exists('download_force') ) {
+	function download_force($filename = '', $data = '')
+	{
+	}
 }
 ?>

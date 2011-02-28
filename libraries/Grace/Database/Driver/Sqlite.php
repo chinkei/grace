@@ -1,11 +1,17 @@
-<?php
-/**
- * PHP-SQLite Claw DB adapter
+<?php if ( ! defined('APP_NAME')) exit('No direct script access allowed');
+
+/**************************************************************************
+ * Grace web development framework for PHP 5.1.2 or newer
  *
- * @package claw.ext
- * @author Tomas Varaneckas <tomas [dot] varaneckas [at] gmail [dot] com>
- * @version $Id: SQLiteClawDB.php 120 2006-03-19 19:26:44Z spajus $
- * @todo testing
+ * @author      陈佳(chinkei) <cj1655@163.com>
+ * @copyright   Copyright (c) 2012-2013, 陈佳(chinkei)
+ **************************************************************************/
+
+/**
+ * Sqlite数据库操作类
+ * 
+ * @anchor 陈佳(chinkei) <cj1655@163.com>
+ * @package Database
  */
 class Grace_Database_Driver_Sqlite extends Grace_Database_Driver
 {

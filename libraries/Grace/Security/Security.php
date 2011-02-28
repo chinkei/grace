@@ -1,9 +1,22 @@
-<?php
+<?php if ( ! defined('APP_NAME')) exit('No direct script access allowed');
+
+/**************************************************************************
+ * Grace web development framework for PHP 5.1.2 or newer
+ *
+ * @author      陈佳(chinkei) <cj1655@163.com>
+ * @copyright   Copyright (c) 2012-2013, 陈佳(chinkei)
+ **************************************************************************/
+
+/**
+ * 安全处理类
+ * 
+ * @anchor 陈佳(chinkei) <cj1655@163.com>
+ * @package Security
+ */
 class Grace_Security_Security
 {
-	const SALT = "this is a salt";
-	
-	public static $ipt_name = "security_input_valid";
+	const SALT       = "this#is#a#salt";
+	const INPUT_NAME = 'security_input_valid'
 	
 	/**
 	 * csrf 表单
@@ -15,8 +28,8 @@ class Grace_Security_Security
 		$time = time();
 		$hash = $time.md5($time.self::SALT);
 		
-		$str = "<input type='hidden' name='".self::$ipt_name."' value='{$hash}'>";
-		Lib_Session::getInstance()->set(self::$ipt_name."_".$time, 1);
+		$str = "<input type='hidden' name='".self::INPUT_NAME."' value='{$hash}'>";
+		Lib_Session::getInstance()->set(self::INPUT_NAME."_".$time, 1);
 		return $str;
 	}
 	
@@ -26,10 +39,10 @@ class Grace_Security_Security
 	 */
 	public static function csrf_check()
 	{
-		if ( !isset($_POST[self::$ipt_name]) ) {
+		if ( !isset($_POST[self::INPUT_NAME]) ) {
 			return FALSE;
 		}
-		$strCsrf = $_POST[self::$ipt_name];
+		$strCsrf = $_POST[self::INPUT_NAME];
 		
 		$time = substr($strCsrf, 0, 10);
 		$hash = $time.md5($time.self::SALT);
@@ -38,7 +51,7 @@ class Grace_Security_Security
 			return FALSE;
 		}
 		
-	    $is_set =  Lib_Session::getInstance()->is_set(self::$ipt_name."_".$time);
+	    $is_set =  Lib_Session::getInstance()->is_set(self::INPUT_NAME."_".$time);
 		
 		if ( !$is_set ){
 			return FALSE;

@@ -1,7 +1,21 @@
-<?php
+<?php if ( ! defined('APP_NAME')) exit('No direct script access allowed');
+
+/**************************************************************************
+ * Grace web development framework for PHP 5.1.2 or newer
+ *
+ * @author      陈佳(chinkei) <cj1655@163.com>
+ * @copyright   Copyright (c) 2012-2013, 陈佳(chinkei)
+ **************************************************************************/
+
 uses('Grace_Ioc_Ioc');
 uses('Grace_Event_Listener');
 
+/**
+ * 控制器抽象类
+ * 
+ * @anchor 陈佳(chinkei) <cj1655@163.com>
+ * @package Mvc.Control
+ */
 abstract class Grace_Mvc_Contrl_Controller implements Grace_Event_Listener
 {
 	

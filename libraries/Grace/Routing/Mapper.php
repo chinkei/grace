@@ -1,7 +1,21 @@
-<?php
+<?php if ( ! defined('APP_NAME')) exit('No direct script access allowed');
+
+/**************************************************************************
+ * Grace web development framework for PHP 5.1.2 or newer
+ *
+ * @author      陈佳(chinkei) <cj1655@163.com>
+ * @copyright   Copyright (c) 2012-2013, 陈佳(chinkei)
+ **************************************************************************/
+
 uses('Grace_Routing_Definition');
 uses('Grace_Routing_Route');
 
+/**
+ * 路由映射类
+ * 
+ * @anchor 陈佳(chinkei) <cj1655@163.com>
+ * @package Routing
+ */
 class Grace_Routing_Mapper
 {
 	/**
@@ -51,6 +65,10 @@ class Grace_Routing_Mapper
         foreach ( $attach as $path_prefix => $rule ) {
             $this->attach($path_prefix, $rule);
         }
+		
+		$path = ( IS_HMVC === TRUE ) ? '/{:module}/{:contrl}/{:action}/*' : '/{:contrl}/{:action}/*';
+		// 添加默认路由
+		$this->addRoute('default', $path);
     }
 	
 	
@@ -95,8 +113,8 @@ class Grace_Routing_Mapper
         unset($rule['name_prefix']);
         unset($rule['path_prefix']);
 
-        // 添加到路由定义数组中
-        $this->_definitions[] = self::createDefinitionInstance('single', $rule);
+        // 在数组开头插入路由定义对象
+		array_unshift($this->_definitions, self::createDefinitionInstance('single', $rule));
     }
 
     /**
@@ -108,7 +126,8 @@ class Grace_Routing_Mapper
      */
     public function attach($path_prefix, $rule)
     {
-        $this->_definitions[] = self::createDefinitionInstance('attach', $rule, $path_prefix);
+		// 在数组开头插入路由定义对象
+		array_unshift($this->_definitions, self::createDefinitionInstance('attach', $rule, $path_prefix));
     }
 
     /**
@@ -151,7 +170,7 @@ class Grace_Routing_Mapper
      * @return string|false 还原成功/失败
      * 
      */
-    public function generate($name, $data = null)
+    public function generate($data = array(), $name = 'default')
     {
 		// 是否存在该路由规则?
         if ( isset($this->_routes[$name]) ) {

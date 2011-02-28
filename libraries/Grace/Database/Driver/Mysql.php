@@ -1,6 +1,20 @@
-<?php
+<?php if ( ! defined('APP_NAME')) exit('No direct script access allowed');
+
+/**************************************************************************
+ * Grace web development framework for PHP 5.1.2 or newer
+ *
+ * @author      陈佳(chinkei) <cj1655@163.com>
+ * @copyright   Copyright (c) 2012-2013, 陈佳(chinkei)
+ **************************************************************************/
+
 uses('Grace_Database_Exception_Mysql');
 
+/**
+ * mysql数据库操作类
+ * 
+ * @anchor 陈佳(chinkei) <cj1655@163.com>
+ * @package Database
+ */
 class Grace_Database_Driver_Mysql extends Grace_Database_Db
 {
 	/**

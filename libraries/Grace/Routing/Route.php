@@ -1,4 +1,18 @@
-<?php
+<?php if ( ! defined('APP_NAME')) exit('No direct script access allowed');
+
+/**************************************************************************
+ * Grace web development framework for PHP 5.1.2 or newer
+ *
+ * @author      陈佳(chinkei) <cj1655@163.com>
+ * @copyright   Copyright (c) 2012-2013, 陈佳(chinkei)
+ **************************************************************************/
+
+/**
+ * 路由类
+ * 
+ * @anchor 陈佳(chinkei) <cj1655@163.com>
+ * @package Routing
+ */
 class Grace_Routing_Route
 {
 	/**
@@ -34,7 +48,7 @@ class Grace_Routing_Route
 	 * 
 	 * @var array
 	 */
-	protected $_findPattern;
+	protected $_pattern;
 	
 	/**
 	 * 路由正则匹配的后的参数数组
@@ -137,7 +151,7 @@ class Grace_Routing_Route
 	protected $_default_params = array(
 		'name'        => NULL,
 		'path'        => NULL,
-		'findPattern' => NULL,
+		'pattern' => NULL,
 		'parameters'  => NULL,
 		'method'      => NULL,
 		'secure'      => NULL,
@@ -213,8 +227,18 @@ class Grace_Routing_Route
         $replace = array();
         $data = array_merge($this->_parameters, $data);
         foreach ($data as $key => $val) {
-            $search[]  = "{:$key}";
-            $replace[] = urlencode($val);
+			if ($key == '*') {
+				$search[]  = "?{:__wildcard__}";
+				if (is_array($val)) {
+					$val = implode('/', array_map('urlencode', $val));
+				} else {
+					$val = urlencode($val);
+				}
+				$replace[] = $val;
+			} else {
+				$search[]  = "{:$key}";
+				$replace[] = urlencode($val);
+			}
         }
         return str_replace($search, $replace, $this->_path);
     }
@@ -243,7 +267,7 @@ class Grace_Routing_Route
         }
 
         // populate wildcard matches
-        if (isset($this->_findPattern['__wildcard__'])) {
+        if (isset($this->_pattern['__wildcard__'])) {
             $values = $this->_parameters['__wildcard__'];
             unset($this->_parameters['__wildcard__']);
             if ($values) {
@@ -266,7 +290,7 @@ class Grace_Routing_Route
     {
         if (substr($this->_path, -2) == '/*') {
             // 路径结尾如果是个通配符/*的话, 给个特殊的参数
-            $this->_path = substr($this->_path, 0, -2) . "/{:__wildcard__:(.*)}";
+            $this->_path = substr($this->_path, 0, -2) . "/?{:__wildcard__:(.*)}";
         }
         
         // 提取参数和对应的正则表达式
@@ -277,22 +301,22 @@ class Grace_Routing_Route
             $name  = $match[1];
 			// 是否存在正则规则
             if (isset($match[3])) {
-                $this->_findPattern[$name] = $match[3];
+                $this->_pattern[$name] = $match[3];
                 $this->_path = str_replace($whole, "{:$name}", $this->_path);
             } else {
 				// 不存在的规则项则设置默认规则
-				if ( ! isset($this->_findPattern[$name]) ) {
-					$this->_findPattern[$name] = "([^/]+)";
+				if ( ! isset($this->_pattern[$name]) ) {
+					$this->_pattern[$name] = "([^/]+)";
 				}
             }
         }
 
         // 创建正则表达式模式的参数和规则
         $this->_regex = $this->_path;
-        if ($this->_findPattern) {
+        if ($this->_pattern) {
             $search  = array();
             $replace = array();
-            foreach ($this->_findPattern as $name => $subpattern) {
+            foreach ($this->_pattern as $name => $subpattern) {
                 if ($subpattern[0] != '(') {
                     $message = "Subpattern for param '$name' must start with '('.";
                     throw new Exception($message);

@@ -1,4 +1,18 @@
-<?php
+<?php if ( ! defined('APP_NAME')) exit('No direct script access allowed');
+
+/**************************************************************************
+ * Grace web development framework for PHP 5.1.2 or newer
+ *
+ * @author      陈佳(chinkei) <cj1655@163.com>
+ * @copyright   Copyright (c) 2012-2013, 陈佳(chinkei)
+ **************************************************************************/
+
+/**
+ * 缓存抽象类
+ * 
+ * @anchor  陈佳(chinkei) <cj1655@163.com>
+ * @package Cache
+ */
 abstract class Grace_Cache_Cache
 {
 	/**
@@ -14,10 +28,6 @@ abstract class Grace_Cache_Cache
 	 * @var array
 	 */
 	protected static $_drivers  = array();
-	
-	abstract function set($key, $val, $time = 0);
-	abstract function get($key);
-	abstract function rm($key, $time = 0);
 	
 	public static function loadDriver($param = '')
 	{
@@ -46,5 +56,48 @@ abstract class Grace_Cache_Cache
 		}
 		return self::$_drivers[$driver];
 	}
+	
+	/**
+	 * 获取处理后的缓存键值
+	 * 
+	 * @param  string $key
+	 * @return string 
+	 */
+	protected function _getKey($key)
+	{
+		return md5($this->_key_prefix.$key);
+	}
+	
+	// ---------------------------------------------- 子类需要实现的方法 START -------------------------------------------- //
+	
+	/**
+	 * 设置缓存值
+	 * 
+	 * @param string $key 键
+	 * @param mixed  $val 值
+	 */
+	abstract public function set($key, $val, $time = 0);
+	
+	/**
+	 * 获取缓存值
+	 * 
+	 * @param  stirng $key 健
+	 * @return mixed 缓存值
+	 */
+	abstract public function get($key);
+	
+	/**
+	 * 删除缓存值
+	 * 
+	 * @param string $key
+	 * @param int    $time 延迟时间
+	 */
+	abstract public function rm($key, $time = 0);
+	
+	abstract public function has($key);
+	
+	abstract public function forever($key, $value);
+	
+	// ---------------------------------------------- 子类需要实现的方法  END  -------------------------------------------- //
 }
 ?>

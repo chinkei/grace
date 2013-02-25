@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\fafaf.clpprj">
+	<settings><PM_URL><![CDATA[C:/Users/chinkei.chen/Desktop/module_as/module_as/Cache/]]></PM_URL><PM_HOME_URL><![CDATA[C:/Users/chinkei.chen/Desktop/module_as/module_as/Cache/]]></PM_HOME_URL><PM_LIBS><![CDATA[]]></PM_LIBS><PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION><PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR><PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE></settings><removed value=";"/><added value=""/><codestructure version="4.3">
+		<phptree>
+			<treenode node="Grace_Cache_Cache;PHP:Class Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Cache.php;f9;1;1;46;;;;vpos;;v;;r;;d0,2;;b0,0;;m">
+				<treenode node="get;PHP:Function Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Cache.php;f10;18;28;18;;;;vpos;;v;;r;;d-1,-1;;b0,0;;mkey;;p">
+					<treenode node="key;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Cache.php;f23;18;27;18;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="loadDriver;PHP:Function Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Cache.php;f15;21;2;45;;;;vpos;;v;;r;;d1,22;;b1,5;;mparam;;p">
+					<treenode node="config.php;PHP:PHP Include;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Cache.php;f11;23;21;23;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="Driver/File.php;PHP:PHP Include;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Cache.php;f12;38;27;38;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="_drivers;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Cache.php;f20;33;29;33;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="cache;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Cache.php;f15;25;21;25;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="dirverClass;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Cache.php;f3;40;15;40;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="driver;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Cache.php;f3;30;10;30;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="param;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Cache.php;f35;21;41;21;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="rm;PHP:Function Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Cache.php;f10;19;38;19;;;;vpos;;v;;r;;d-1,-1;;b0,0;;mkey;;ptime;;p">
+					<treenode node="key;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Cache.php;f22;19;26;19;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="time;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Cache.php;f28;19;33;19;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="set;PHP:Function Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Cache.php;f10;17;45;17;;;;vpos;;v;;r;;d-1,-1;;b0,0;;mkey;;pval;;ptime;;p">
+					<treenode node="key;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Cache.php;f23;17;27;17;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="time;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Cache.php;f35;17;40;17;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="val;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Cache.php;f29;17;33;17;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="_drivers;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Cache.php;f18;15;27;15;;;;vposarray;;v;;r;;d-1,-1;;b2,5;;m">
+				</treenode>
+				<treenode node="_key_prefix;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Cache.php;f11;8;23;8;;;;vposstring;;v;;r;;d-1,-1;;b2,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="Grace_Cache_Driver_Apc;PHP:Class Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\Apc.php;f0;1;1;24;;;;vpos;;vGrace_Cache_Cache;;c;;r;;d0,2;;b0,0;;m">
+				<treenode node="__construct;PHP:Function Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\Apc.php;f8;3;2;8;;;;vpos;;v;;r;;d1,4;;b1,0;;msettings;;p">
+					<treenode node="settings;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\Apc.php;f29;3;38;3;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\Apc.php;f3;6;8;6;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="get;PHP:Function Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\Apc.php;f8;15;2;18;;;;vpos;;v;;r;;d1,16;;b1,0;;mkey;;p">
+					<treenode node="key;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\Apc.php;f21;15;25;15;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="rm;PHP:Function Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\Apc.php;f8;20;2;23;;;;vpos;;v;;r;;d1,21;;b1,0;;mkey;;p">
+					<treenode node="key;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\Apc.php;f20;20;24;20;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="set;PHP:Function Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\Apc.php;f8;10;2;13;;;;vpos;;v;;r;;d1,11;;b1,0;;mkey;;pval;;ptime;;p">
+					<treenode node="key;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\Apc.php;f21;10;25;10;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="time;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\Apc.php;f33;10;38;10;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="val;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\Apc.php;f27;10;31;10;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+			</treenode>
+			<treenode node="Grace_Cache_Driver_File;PHP:Class Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\File.php;f0;1;1;202;;;;vpos;;vGrace_Cache_Cache;;c;;r;;d0,2;;b0,0;;m">
+				<treenode node="__construct;PHP:Function Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\File.php;f8;29;2;45;;;;vpos;;v;;r 构造函数;;d1,30;;b1,0;;marray $sections;;p">
+					<treenode node="settings;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\File.php;f29;29;38;29;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\File.php;f3;32;8;32;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="_dtePath;PHP:Function Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\File.php;f11;176;2;190;;;;vpos;;vvoid;;r 递归删除缓存文件;;d1,177;;b2,0;;mstring $path;;p">
+					<treenode node="dh;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\File.php;f25;178;28;178;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="dir;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\File.php;f39;178;43;178;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="file;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\File.php;f12;179;17;179;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="path;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\File.php;f29;176;34;176;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\File.php;f4;183;9;183;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="_file;PHP:Function Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\File.php;f11;153;2;168;;;;vpos;;vstring;;r 获取缓存文件地址;;d1,154;;b2,0;;mstring $key;;p">
+					<treenode node="dir;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\File.php;f3;161;7;161;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="key;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\File.php;f26;153;30;153;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="postfix;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\File.php;f2;155;10;155;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\File.php;f7;157;12;157;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="type;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\File.php;f3;160;8;160;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="_getKey;PHP:Function Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\File.php;f11;198;2;201;;;;vpos;;vstring;;r 获取处理后的缓存键值;;d1,199;;b2,0;;mstring $key;;p">
+					<treenode node="key;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\File.php;f28;198;32;198;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\File.php;f13;200;18;200;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="clearByGroup;PHP:Function Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\File.php;f8;121;2;133;;;;vpos;;v;;r 根据组类型删除缓存;;d1,122;;b1,0;;mstring $type;;p">
+					<treenode node="group;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\File.php;f30;121;36;121;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="path;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\File.php;f2;123;7;123;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\File.php;f10;123;15;123;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="get;PHP:Function Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\File.php;f8;83;2;102;;;;vpos;;vbool;;r 根据键值获取缓存值;;d1,84;;b1,0;;mstring $key;;p">
+					<treenode node="content;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\File.php;f4;89;12;89;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="file;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\File.php;f2;85;7;85;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="key;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\File.php;f21;83;25;83;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\File.php;f10;85;15;85;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="rm;PHP:Function Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\File.php;f8;110;2;114;;;;vpos;;vbool;;r 删除缓存;;d1,111;;b1,0;;mstring $key;;p">
+					<treenode node="file;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\File.php;f2;112;7;112;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="key;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\File.php;f20;110;24;110;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\File.php;f10;112;15;112;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="set;PHP:Function Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\File.php;f8;54;2;75;;;;vpos;;vbool;;r 保存缓存内容;;d1,55;;b1,0;;mkey;;pval;;pexpires;;p">
+					<treenode node="data;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\File.php;f2;57;7;57;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="expires;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\File.php;f33;54;41;54;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="file;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\File.php;f2;56;7;56;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="key;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\File.php;f21;54;25;54;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="prefixContent;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\File.php;f34;71;48;71;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="ret;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\File.php;f2;71;6;71;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\File.php;f10;56;15;56;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="val;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\File.php;f27;54;31;54;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="value;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\File.php;f59;71;65;71;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="setDataGroup;PHP:Function Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\File.php;f8;141;2;145;;;;vpos;;vobject;;r 设置缓存组名;;d1,142;;b1,0;;mstring $group;;p">
+					<treenode node="group;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\File.php;f30;141;36;141;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\File.php;f2;143;7;143;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="_cache_path;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\File.php;f11;15;23;15;;;;vposstring;;v;;r;;d-1,-1;;b2,0;;m">
+				</treenode>
+				<treenode node="_data_group;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\File.php;f11;8;23;8;;;;vposstring;;v;;r;;d-1,-1;;b2,0;;m">
+				</treenode>
+				<treenode node="_default_expires;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\File.php;f11;22;28;22;;;;vposint;;v;;r;;d-1,-1;;b2,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="Grace_Cache_Driver_Memcached;PHP:Class Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\Memcached.php;f0;1;1;71;;;;vpos;;vGrace_Cache_Cache;;c;;r;;d0,2;;b0,0;;m">
+				<treenode node="__construct;PHP:Function Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\Memcached.php;f8;5;2;27;;;;vpos;;v;;r;;d1,6;;b1,0;;msettings;;p">
+					<treenode node="memcached;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\Memcached.php;f2;12;12;12;;;;vposMemcached;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="servers;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\Memcached.php;f2;14;10;14;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="settings;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\Memcached.php;f29;5;38;5;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\Memcached.php;f3;22;8;22;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="_getKey;PHP:Function Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\Memcached.php;f11;67;2;70;;;;vpos;;v;;r;;d1,68;;b2,0;;mkey;;p">
+					<treenode node="key;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\Memcached.php;f28;67;32;67;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\Memcached.php;f9;69;14;69;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="add;PHP:Function Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\Memcached.php;f11;52;5;56;;;;vpos;;v;;r;;d1,53;;b1,0;;mkey;;pval;;pexpire;;p">
+					<treenode node="expire;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\Memcached.php;f36;52;43;52;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="key;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\Memcached.php;f24;52;28;52;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\Memcached.php;f9;54;14;54;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="val;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\Memcached.php;f30;52;34;52;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="get;PHP:Function Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\Memcached.php;f8;35;2;39;;;;vpos;;v;;r;;d1,36;;b1,0;;mkey;;p">
+					<treenode node="key;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\Memcached.php;f21;35;25;35;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\Memcached.php;f9;37;14;37;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="getMemcached;PHP:Function Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\Memcached.php;f8;47;2;50;;;;vpos;;v;;r;;d1,48;;b1,0;;m">
+					<treenode node="this;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\Memcached.php;f9;49;14;49;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="replace;PHP:Function Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\Memcached.php;f11;61;5;65;;;;vpos;;v;;r;;d1,62;;b1,0;;mkey;;pval;;pexpire;;p">
+					<treenode node="expire;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\Memcached.php;f40;61;47;61;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="key;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\Memcached.php;f28;61;32;61;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\Memcached.php;f9;63;14;63;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="val;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\Memcached.php;f34;61;38;61;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="rm;PHP:Function Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\Memcached.php;f8;41;2;45;;;;vpos;;v;;r;;d1,42;;b1,0;;mkey;;ptimeout;;p">
+					<treenode node="key;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\Memcached.php;f20;41;24;41;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\Memcached.php;f9;43;14;43;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="timeout;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\Memcached.php;f26;41;34;41;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="set;PHP:Function Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\Memcached.php;f8;29;2;33;;;;vpos;;v;;r;;d1,30;;b1,0;;mkey;;pval;;pexpire;;p">
+					<treenode node="expire;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\Memcached.php;f33;29;40;29;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="key;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\Memcached.php;f21;29;25;29;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\Memcached.php;f9;31;14;31;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="val;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\Memcached.php;f27;29;31;29;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="_memcached;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\Memcached.php;f9;3;20;3;;;;vpos;;v;;r;;d-1,-1;;b3,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="Grace_Cache_Driver_Redis;PHP:Class Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\Redis.php;f0;1;1;24;;;;vpos;;vGrace_Cache_Cache;;c;;r;;d0,2;;b0,0;;m">
+				<treenode node="__construct;PHP:Function Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\Redis.php;f8;3;2;8;;;;vpos;;v;;r;;d1,4;;b1,0;;msettings;;p">
+					<treenode node="settings;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\Redis.php;f29;3;38;3;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="get;PHP:Function Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\Redis.php;f8;15;2;18;;;;vpos;;v;;r;;d1,16;;b1,0;;mkey;;p">
+					<treenode node="key;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\Redis.php;f21;15;25;15;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="rm;PHP:Function Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\Redis.php;f8;20;2;23;;;;vpos;;v;;r;;d1,21;;b1,0;;mkey;;p">
+					<treenode node="key;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\Redis.php;f20;20;24;20;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="set;PHP:Function Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\Redis.php;f8;10;2;13;;;;vpos;;v;;r;;d1,11;;b1,0;;mkey;;pval;;ptime;;p">
+					<treenode node="key;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\Redis.php;f21;10;25;10;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="time;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\Redis.php;f33;10;38;10;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="val;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\Redis.php;f27;10;31;10;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+			</treenode>
+			<treenode node="cache;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\config.php;f0;4;6;4;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="driver;PHP:Var Name;C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\config.php;f0;2;7;2;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+		</phptree>
+		<jstree>
+		</jstree>
+		<file name="C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\fafaf.clpprj" crc="1141442211"/>
+		<file name="C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Exception\Apc.php" crc="1604745361"/>
+		<file name="C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\Redis.php" crc="345155869"/>
+		<file name="C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\Memcached.php" crc="1271866584"/>
+		<file name="C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\File.php" crc="1557982857"/>
+		<file name="C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Driver\Apc.php" crc="827907700"/>
+		<file name="C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\config.php" crc="1576944399"/>
+		<file name="C:\Documents and Settings\Administrator\桌面\module_as_cy\module_as\module_as\Cache\Cache.php" crc="-531495060"/>
+	</codestructure></project>

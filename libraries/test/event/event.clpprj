@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\event.clpprj">
+	<removed value=";C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\Listener;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\Listener\EventListener.php;"/><added value=""/><codestructure>
+		<phptree>
+			<treenode node="Event/Event.php;PHP:PHP Include;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\log.php;f9;1;24;1;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="Event/Listener.php;PHP:PHP Include;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\log.php;f9;2;27;2;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="Grace_Event_Listener;PHP:Interface Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\Event\Codelobster0.php;f0;1;1;4;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\Event\Listener.php;f0;1;1;4;;;;vpos;;v;;r;;d0,2;;b0,0;;m">
+				<treenode node="getEventListeners;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\Event\Listener.php;f8;3;36;3;;;;vpos;;v;;r;;d-1,-1;;b1,0;;m">
+				</treenode>
+				<treenode node="implementedEvents;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\Event\Codelobster0.php;f8;3;36;3;;;;vpos;;v;;r;;d-1,-1;;b1,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="Event;PHP:Class Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\Event.php;f0;18;1;63;;;;vpos;;vEventInterface;;c;;r;;d0,19;;b0,0;;m">
+				<treenode node="addEvent;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\Event.php;f11;34;5;37;;;;vpos;;vmixed;;r Add the event name for callback the new class or object;;d4,35;;b1,0;;mstring $event;;pcallable $callable;;p">
+					<treenode node="callable;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\Event.php;f65;34;74;34;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="event;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\Event.php;f29;34;35;34;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\Event.php;f8;36;13;36;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="dispatch;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\Event.php;f11;45;5;48;;;;vpos;;vmixed;;r Dispatch and returned the event specific named;;d4,46;;b1,0;;mstring $event;;p">
+					<treenode node="event;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\Event.php;f29;45;35;45;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\Event.php;f30;47;35;47;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="remove;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\Event.php;f11;55;5;62;;;;vpos;;v;;r Remove configuration event;;d4,56;;b1,0;;mstring $event;;p">
+					<treenode node="event;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\Event.php;f27;55;33;55;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="evented;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\Event.php;f44;58;52;58;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\Event.php;f17;57;22;57;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="event;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\Event.php;f14;25;20;25;;;;vposarray;;v;;r;;d-1,-1;;b2,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="Grace_Event_Event;PHP:Class Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\Event\Event.php;f0;1;1;216;;;;vpos;;v;;r;;d0,2;;b0,0;;m">
+				<treenode node="__clone;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\Event\Event.php;f9;10;29;10;;;;vpos;;v;;r;;d27,10;;b3,0;;m">
+				</treenode>
+				<treenode node="__construct;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\Event\Event.php;f9;11;33;11;;;;vpos;;v;;r;;d31,11;;b3,0;;m">
+				</treenode>
+				<treenode node="_extractCallable;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\Event\Event.php;f11;181;2;191;;;;vpos;;vvoid;;r 提取callable和事件数组选项;;d1,182;;b2,0;;mevent;;pobject;;p">
+					<treenode node="event;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\Event\Event.php;f37;181;43;181;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="method;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\Event\Event.php;f2;183;9;183;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="object;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\Event\Event.php;f45;181;52;181;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="options;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\Event\Event.php;f8;184;16;184;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="_fetch_listeners;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\Event\Event.php;f14;50;5;62;;;;vpos;;varray;;r Returns a list of all listeners for a eventKey in the order they should be called;;d4,51;;b2,0;;mstring $eventKey;;p">
+					<treenode node="evtName;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\Event\Event.php;f40;50;48;50;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="priority;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\Event\Event.php;f48;58;57;58;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="result;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\Event\Event.php;f8;57;15;57;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\Event\Event.php;f18;52;23;52;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="_removeSubscriber;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\Event\Event.php;f11;200;2;215;;;;vpos;;vbool;;r 移除指定的事件的方法;;d1,201;;b2,0;;mcallback $callable;;pstring $evtName;;p">
+					<treenode node="callable;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\Event\Event.php;f38;200;47;200;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="callables;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\Event\Event.php;f61;206;71;206;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="callback;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\Event\Event.php;f43;207;52;207;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="eventKey;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\Event\Event.php;f44;209;53;209;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="evtName;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\Event\Event.php;f49;200;57;200;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="key;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\Event\Event.php;f35;207;39;207;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="priority;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\Event\Event.php;f48;206;57;206;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\Event\Event.php;f14;202;19;202;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="attchEvent;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\Event\Event.php;f8;72;2;86;;;;vpos;;vvoid;;r 添加事件;;d1,73;;b1,0;;mstring $evtName;;pcallback $callable;;parray $options;;p">
+					<treenode node="callable;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\Event\Event.php;f38;72;47;72;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="default;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\Event\Event.php;f2;74;10;74;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="evtName;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\Event\Event.php;f28;72;36;72;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="options;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\Event\Event.php;f49;72;57;72;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\Event\Event.php;f8;81;13;81;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="attchSubscriber;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\Event\Event.php;f8;94;2;117;;;;vpos;;vvoid;;r 对象实现事件;;d1,95;;b1,0;;meventListener;;p">
+					<treenode node="callable;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\Event\Event.php;f6;103;15;103;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="event;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\Event\Event.php;f59;101;65;101;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="eventListener;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\Event\Event.php;f33;94;47;94;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="name;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\Event\Event.php;f50;101;55;101;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="options;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\Event\Event.php;f6;102;14;102;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\Event\Event.php;f38;109;43;109;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="dispatch;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\Event\Event.php;f11;30;5;42;;;;vpos;;vbool;;r 触发事件;;d4,31;;b1,0;;mstring $evtName;;p">
+					<treenode node="eventListeners;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\Event\Event.php;f2;32;17;32;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="evtName;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\Event\Event.php;f29;30;37;30;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="listener;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\Event\Event.php;f36;34;45;34;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\Event\Event.php;f20;32;25;32;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="getInstance;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\Event\Event.php;f15;16;2;22;;;;vpos;;v;;r;;d1,17;;b1,5;;m">
+					<treenode node="_instace;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\Event\Event.php;f12;18;21;18;;;;vposself;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="remove;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\Event\Event.php;f11;125;5;134;;;;vpos;;vbool;;r 移除事件监听;;d4,126;;b1,0;;mstring $evtName;;p">
+					<treenode node="evtName;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\Event\Event.php;f27;125;35;125;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\Event\Event.php;f20;127;25;127;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="removeSubscriber;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\Event\Event.php;f11;143;5;172;;;;vpos;;vbool;;r 移除事件订阅对象的所有事件方法;;d4,144;;b1,0;;mobject $eventListener;;pstring $evtName;;p">
+					<treenode node="callable;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\Event\Event.php;f4;163;13;163;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="event;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\Event\Event.php;f37;158;43;158;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="eventListener;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\Event\Event.php;f37;143;51;143;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="events;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\Event\Event.php;f8;150;15;150;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="evtName;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\Event\Event.php;f53;143;61;143;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="name;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\Event\Event.php;f28;158;33;158;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\Event\Event.php;f12;169;17;169;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="_instace;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\Event\Event.php;f16;3;25;3;;;;vpos;;v;;r;;d-1,-1;;b3,5;;m">
+				</treenode>
+				<treenode node="_listeners;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\Event\Event.php;f9;8;20;8;;;;vpos;;v;;r;;d-1,-1;;b3,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="log;PHP:Class Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\Codelobster0.php;f0;1;1;13;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\log.php;f0;4;1;39;;;;vpos;;vGrace_Event_Listener;;c;;r;;d0,5;;b0,0;;m">
+				<treenode node="a;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\log.php;f8;6;2;9;;;;vpos;;v;;r;;d1,7;;b1,0;;m">
+				</treenode>
+				<treenode node="b;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\log.php;f8;11;2;14;;;;vpos;;v;;r;;d1,12;;b1,0;;m">
+				</treenode>
+				<treenode node="c;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\log.php;f8;16;2;19;;;;vpos;;v;;r;;d1,17;;b1,0;;m">
+				</treenode>
+				<treenode node="d;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\log.php;f8;20;2;23;;;;vpos;;v;;r;;d1,21;;b1,0;;m">
+				</treenode>
+				<treenode node="e;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\log.php;f8;24;2;27;;;;vpos;;v;;r;;d1,25;;b1,0;;m">
+				</treenode>
+				<treenode node="getEventListeners;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\log.php;f8;29;2;38;;;;vpos;;v;;r;;d1,30;;b1,0;;m">
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\log.php;f65;32;70;32;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+			</treenode>
+			<treenode node="a;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\log.php;f0;40;2;40;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+		</phptree>
+		<jstree>
+		</jstree>
+		<file name="C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\event.clpprj" crc="2130905679"/>
+		<file name="C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\Event\Listener.php" crc="-1332894758"/>
+		<file name="C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\Event\Event.php" crc="1202048965"/>
+		<file name="C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\event\log.php" crc="-723795583"/>
+	</codestructure><dbgurls>
+	</dbgurls>
+</project>

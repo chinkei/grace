@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\cache.clpprj">
+	<settings><PM_URL><![CDATA[D:/esocc_uc/]]></PM_URL><PM_HOME_URL><![CDATA[D:/esocc_uc/]]></PM_HOME_URL><PM_LIBS><![CDATA[]]></PM_LIBS><PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION><PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR><PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE></settings><removed value=";C:\Users\chinkei.chen\Desktop\module_as\module_as\Cache\Adapter.php;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\Codelobster0.php;"/><added value=""/><codestructure>
+		<phptree>
+			<treenode node="Cache.php;PHP:PHP Include;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Codelobster0.php;f9;1;18;1;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="Grace_Cache_Cache;PHP:Class Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Cache.php;f9;1;1;47;;;;vpos;;v;;r;;d0,2;;b0,0;;m">
+				<treenode node="get;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Cache.php;f10;18;28;18;;;;vpos;;v;;r;;d-1,-1;;b0,0;;mkey;;p">
+					<treenode node="key;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Cache.php;f23;18;27;18;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="loadDriver;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Cache.php;f15;21;2;46;;;;vpos;;v;;r;;d1,22;;b1,5;;mparam;;p">
+					<treenode node="config.php;PHP:PHP Include;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Cache.php;f11;23;21;23;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="Driver/{;PHP:PHP Include;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Cache.php;f12;39;20;39;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="_drivers;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Cache.php;f20;33;29;33;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="cache;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Cache.php;f15;25;21;25;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="class;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Cache.php;f3;38;9;38;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="dirverClass;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Cache.php;f3;41;15;41;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="driver;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Cache.php;f3;30;10;30;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="param;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Cache.php;f35;21;41;21;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="rm;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Cache.php;f10;19;38;19;;;;vpos;;v;;r;;d-1,-1;;b0,0;;mkey;;ptime;;p">
+					<treenode node="key;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Cache.php;f22;19;26;19;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="time;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Cache.php;f28;19;33;19;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="set;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Cache.php;f10;17;45;17;;;;vpos;;v;;r;;d-1,-1;;b0,0;;mkey;;pval;;ptime;;p">
+					<treenode node="key;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Cache.php;f23;17;27;17;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="time;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Cache.php;f35;17;40;17;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="val;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Cache.php;f29;17;33;17;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="_drivers;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Cache.php;f18;15;27;15;;;;vposarray;;v;;r;;d-1,-1;;b2,5;;m">
+				</treenode>
+				<treenode node="_key_prefix;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Cache.php;f11;8;23;8;;;;vposstring;;v;;r;;d-1,-1;;b2,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="Grace_Cache_Driver_Apc;PHP:Class Name;C:\Users\chinkei.chen\Desktop\module_as\module_as\Cache\Adapter\Apc.php;f0;1;1;3;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\Apc.php;f0;1;1;24;;;;vpos;;vGrace_Cache_Cache;;c;;r;;d0,2;;b0,0;;m">
+				<treenode node="__construct;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\Apc.php;f8;3;2;8;;;;vpos;;v;;r;;d1,4;;b1,0;;msettings;;p">
+					<treenode node="settings;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\Apc.php;f29;3;38;3;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\Apc.php;f3;6;8;6;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="get;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\Apc.php;f8;15;2;18;;;;vpos;;v;;r;;d1,16;;b1,0;;mkey;;p">
+					<treenode node="key;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\Apc.php;f21;15;25;15;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="rm;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\Apc.php;f8;20;2;23;;;;vpos;;v;;r;;d1,21;;b1,0;;mkey;;p">
+					<treenode node="key;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\Apc.php;f20;20;24;20;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="set;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\Apc.php;f8;10;2;13;;;;vpos;;v;;r;;d1,11;;b1,0;;mkey;;pval;;ptime;;p">
+					<treenode node="key;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\Apc.php;f21;10;25;10;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="time;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\Apc.php;f33;10;38;10;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="val;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\Apc.php;f27;10;31;10;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+			</treenode>
+			<treenode node="Grace_Cache_Driver_File;PHP:Class Name;C:\Users\chinkei.chen\Desktop\module_as\module_as\Cache\Adapter\File.php;f0;1;1;3;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\File.php;f0;1;1;194;;;;vpos;;vGrace_Cache_Cache;;c;;r;;d0,2;;b0,0;;m">
+				<treenode node="__construct;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\File.php;f8;29;2;45;;;;vpos;;v;;r 构造函数;;d1,30;;b1,0;;marray $sections;;p">
+					<treenode node="settings;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\File.php;f29;29;38;29;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\File.php;f3;32;8;32;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="_dtePath;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\File.php;f11;168;2;182;;;;vpos;;vvoid;;r 递归删除缓存文件;;d1,169;;b2,0;;mstring $path;;p">
+					<treenode node="dh;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\File.php;f25;170;28;170;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="file;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\File.php;f12;171;17;171;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="path;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\File.php;f29;168;34;168;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\File.php;f4;175;9;175;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="_file;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\File.php;f11;146;2;160;;;;vpos;;vstring;;r 获取缓存文件地址;;d1,147;;b2,0;;mstring $key;;p">
+					<treenode node="dir;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\File.php;f3;153;7;153;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="key;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\File.php;f26;146;30;146;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="postfix;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\File.php;f2;148;10;148;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\File.php;f7;150;12;150;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="_getKey;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\File.php;f11;190;2;193;;;;vpos;;vstring;;r 获取处理后的缓存键值;;d1,191;;b2,0;;mstring $key;;p">
+					<treenode node="key;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\File.php;f28;190;32;190;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\File.php;f13;192;18;192;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="clearByGroup;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\File.php;f8;114;2;126;;;;vpos;;v;;r 根据组类型删除缓存;;d1,115;;b1,0;;mstring $type;;p">
+					<treenode node="group;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\File.php;f30;114;36;114;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="path;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\File.php;f2;116;7;116;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\File.php;f10;116;15;116;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="get;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\File.php;f8;79;2;95;;;;vpos;;vbool;;r 根据键值获取缓存值;;d1,80;;b1,0;;mstring $key;;p">
+					<treenode node="content;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\File.php;f4;85;12;85;;;;vposbool;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="file;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\File.php;f2;81;7;81;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="key;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\File.php;f21;79;25;79;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\File.php;f10;81;15;81;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="rm;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\File.php;f8;103;2;107;;;;vpos;;vbool;;r 删除缓存;;d1,104;;b1,0;;mkey;;ptime;;p">
+					<treenode node="file;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\File.php;f2;105;7;105;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="key;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\File.php;f20;103;24;103;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\File.php;f10;105;15;105;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="time;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\File.php;f26;103;31;103;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="set;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\File.php;f8;54;2;71;;;;vpos;;vbool;;r 保存缓存内容;;d1,55;;b1,0;;mkey;;pval;;pexpires;;p">
+					<treenode node="data;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\File.php;f2;57;7;57;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="expires;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\File.php;f33;54;41;54;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="file;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\File.php;f2;56;7;56;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="key;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\File.php;f21;54;25;54;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="ret;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\File.php;f2;67;6;67;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\File.php;f10;56;15;56;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="val;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\File.php;f27;54;31;54;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="setDataGroup;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\File.php;f8;134;2;138;;;;vpos;;vobject;;r 设置缓存组名;;d1,135;;b1,0;;mstring $group;;p">
+					<treenode node="group;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\File.php;f30;134;36;134;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\File.php;f2;136;7;136;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="_cache_path;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\File.php;f11;15;23;15;;;;vposstring;;v;;r;;d-1,-1;;b2,0;;m">
+				</treenode>
+				<treenode node="_data_group;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\File.php;f11;8;23;8;;;;vposstring;;v;;r;;d-1,-1;;b2,0;;m">
+				</treenode>
+				<treenode node="_default_expires;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\File.php;f11;22;28;22;;;;vposint;;v;;r;;d-1,-1;;b2,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="Grace_Cache_Driver_Memcache;PHP:Class Name;C:\Users\chinkei.chen\Desktop\module_as\module_as\Cache\Adapter\Memcache.php;f0;1;1;3;;;;vpos;;vGrace_Cache_Engine;;c;;r;;d0,2;;b0,0;;m">
+			</treenode>
+			<treenode node="Grace_Cache_Driver_Memcached;PHP:Class Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\Memcached.php;f0;1;1;71;;;;vpos;;vGrace_Cache_Cache;;c;;r;;d0,2;;b0,0;;m">
+				<treenode node="__construct;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\Memcached.php;f8;5;2;27;;;;vpos;;v;;r;;d1,6;;b1,0;;msettings;;p">
+					<treenode node="memcached;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\Memcached.php;f2;12;12;12;;;;vposMemcached;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="servers;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\Memcached.php;f2;14;10;14;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="settings;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\Memcached.php;f29;5;38;5;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\Memcached.php;f3;22;8;22;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="_getKey;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\Memcached.php;f11;67;2;70;;;;vpos;;v;;r;;d1,68;;b2,0;;mkey;;p">
+					<treenode node="key;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\Memcached.php;f28;67;32;67;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\Memcached.php;f9;69;14;69;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="add;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\Memcached.php;f11;52;5;56;;;;vpos;;v;;r;;d1,53;;b1,0;;mkey;;pval;;pexpire;;p">
+					<treenode node="expire;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\Memcached.php;f36;52;43;52;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="key;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\Memcached.php;f24;52;28;52;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\Memcached.php;f9;54;14;54;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="val;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\Memcached.php;f30;52;34;52;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="get;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\Memcached.php;f8;35;2;39;;;;vpos;;v;;r;;d1,36;;b1,0;;mkey;;p">
+					<treenode node="key;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\Memcached.php;f21;35;25;35;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\Memcached.php;f9;37;14;37;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="getMemcached;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\Memcached.php;f8;47;2;50;;;;vpos;;v;;r;;d1,48;;b1,0;;m">
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\Memcached.php;f9;49;14;49;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="replace;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\Memcached.php;f11;61;5;65;;;;vpos;;v;;r;;d1,62;;b1,0;;mkey;;pval;;pexpire;;p">
+					<treenode node="expire;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\Memcached.php;f40;61;47;61;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="key;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\Memcached.php;f28;61;32;61;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\Memcached.php;f9;63;14;63;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="val;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\Memcached.php;f34;61;38;61;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="rm;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\Memcached.php;f8;41;2;45;;;;vpos;;v;;r;;d1,42;;b1,0;;mkey;;ptimeout;;p">
+					<treenode node="key;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\Memcached.php;f20;41;24;41;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\Memcached.php;f9;43;14;43;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="timeout;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\Memcached.php;f26;41;34;41;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="set;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\Memcached.php;f8;29;2;33;;;;vpos;;v;;r;;d1,30;;b1,0;;mkey;;pval;;pexpire;;p">
+					<treenode node="expire;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\Memcached.php;f33;29;40;29;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="key;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\Memcached.php;f21;29;25;29;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\Memcached.php;f9;31;14;31;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="val;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\Memcached.php;f27;29;31;29;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="_memcached;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\Memcached.php;f9;3;20;3;;;;vpos;;v;;r;;d-1,-1;;b3,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="Grace_Cache_Driver_Redis;PHP:Class Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\Redis.php;f0;1;1;24;;;;vpos;;vGrace_Cache_Cache;;c;;r;;d0,2;;b0,0;;m">
+				<treenode node="__construct;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\Redis.php;f8;3;2;8;;;;vpos;;v;;r;;d1,4;;b1,0;;msettings;;p">
+					<treenode node="settings;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\Redis.php;f29;3;38;3;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\Redis.php;f3;6;8;6;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="get;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\Redis.php;f8;15;2;18;;;;vpos;;v;;r;;d1,16;;b1,0;;mkey;;p">
+					<treenode node="key;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\Redis.php;f21;15;25;15;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="rm;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\Redis.php;f8;20;2;23;;;;vpos;;v;;r;;d1,21;;b1,0;;mkey;;p">
+					<treenode node="key;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\Redis.php;f20;20;24;20;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="set;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\Redis.php;f8;10;2;13;;;;vpos;;v;;r;;d1,11;;b1,0;;mkey;;pval;;ptime;;p">
+					<treenode node="key;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\Redis.php;f21;10;25;10;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="time;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\Redis.php;f33;10;38;10;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="val;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\Redis.php;f27;10;31;10;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+			</treenode>
+			<treenode node="cache;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\config.php;f0;4;6;4;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Codelobster0.php;f0;2;6;2;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="cache1;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Codelobster0.php;f0;7;7;7;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="driver;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\config.php;f0;2;7;2;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+		</phptree>
+		<jstree>
+		</jstree>
+		<file name="C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\cache.clpprj" crc="1032074347"/>
+		<file name="C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Exception\Apc.php" crc="1604745361"/>
+		<file name="C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\Redis.php" crc="345155869"/>
+		<file name="C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\Memcached.php" crc="1239538609"/>
+		<file name="C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\File.php" crc="-155173270"/>
+		<file name="C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Driver\Apc.php" crc="827907700"/>
+		<file name="C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\test.php" crc="-1782968784"/>
+		<file name="C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\config.php" crc="-853814036"/>
+		<file name="C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Cache\Cache.php" crc="-63146833"/>
+	</codestructure><dbgurls>
+	</dbgurls>
+</project>

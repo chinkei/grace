@@ -1,0 +1,1441 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\db.clpprj">
+	<settings><PM_URL><![CDATA[C:/Users/chinkei.chen/Desktop/Routing/Routing/]]></PM_URL><PM_HOME_URL><![CDATA[C:/Users/chinkei.chen/Desktop/Routing/Routing/]]></PM_HOME_URL><PM_LIBS><![CDATA[]]></PM_LIBS><PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION><PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR><PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE></settings><removed value=";"/><added value=""/><codestructure>
+		<phptree>
+			<treenode node="Db.php;PHP:PHP Include;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\test.php;f9;3;15;3;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="Grace_Database_Db;PHP:Class Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Db.php;f9;1;1;176;;;;vpos;;v;;r;;d0,2;;b0,0;;m">
+				<treenode node="_getSlaveConfig;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Db.php;f11;145;2;175;;;;vpos;;v;;r;;d1,146;;b2,0;;msettings;;p">
+					<treenode node="count;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Db.php;f2;148;8;148;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="i;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Db.php;f8;165;10;165;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="index;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Db.php;f3;152;9;152;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="rand;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Db.php;f3;163;8;163;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="result;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Db.php;f2;147;9;147;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="settings;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Db.php;f36;145;45;145;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Db.php;f6;151;11;151;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="val;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Db.php;f25;157;29;157;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="weight;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Db.php;f3;156;10;156;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="_getSlaveLink;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Db.php;f11;127;2;140;;;;vpos;;v;;r;;d1,128;;b2,0;;msettings;;p">
+					<treenode node="conn;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Db.php;f18;135;23;135;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="settings;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Db.php;f34;127;43;127;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="slave;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Db.php;f2;134;8;134;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Db.php;f11;134;16;134;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="colArray;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Db.php;f17;17;36;17;;;;vpos;;v;;r;;d-1,-1;;b1,0;;m">
+				</treenode>
+				<treenode node="connect;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Db.php;f17;12;42;12;;;;vpos;;v;;r;;d-1,-1;;b1,0;;mdbConf;;p">
+					<treenode node="dbConf;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Db.php;f34;12;41;12;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="delete;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Db.php;f17;21;55;21;;;;vpos;;v;;r;;d-1,-1;;b1,0;;mtable;;pwhere;;p">
+					<treenode node="table;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Db.php;f33;21;39;21;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="where;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Db.php;f41;21;47;21;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="disconnect;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Db.php;f17;13;38;13;;;;vpos;;v;;r;;d-1,-1;;b1,0;;m">
+				</treenode>
+				<treenode node="escape;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Db.php;f17;25;38;25;;;;vpos;;v;;r;;d-1,-1;;b1,0;;mstr;;p">
+					<treenode node="str;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Db.php;f33;25;37;25;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="execute;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Db.php;f17;14;35;14;;;;vpos;;v;;r;;d-1,-1;;b1,0;;m">
+				</treenode>
+				<treenode node="free;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Db.php;f17;24;32;24;;;;vpos;;v;;r;;d-1,-1;;b1,0;;m">
+				</treenode>
+				<treenode node="getCharset;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Db.php;f8;86;2;89;;;;vpos;;v;;r;;d1,87;;b1,0;;m">
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Db.php;f15;88;20;88;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="getConnLink;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Db.php;f8;96;2;122;;;;vpos;;v;;r 获取数据库连接句柄;;d1,97;;b1,0;;mstring $mode;;p">
+					<treenode node="link;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Db.php;f3;104;8;104;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="mode;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Db.php;f29;96;34;96;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Db.php;f6;99;11;99;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="getInsertId;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Db.php;f17;22;39;22;;;;vpos;;v;;r;;d-1,-1;;b1,0;;m">
+				</treenode>
+				<treenode node="getInstance;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Db.php;f15;34;2;59;;;;vpos;;v;;r 获取数据库驱动对象;;d1,35;;b1,5;;mstring $active_group;;p">
+					<treenode node="config.php;PHP:PHP Include;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Db.php;f11;37;21;37;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="Driver/Mysql.php;PHP:PHP Include;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Db.php;f12;52;28;52;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="_instance;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Db.php;f20;47;30;47;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="active_group;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Db.php;f3;44;16;44;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="db;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Db.php;f15;39;18;39;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="dirverClass;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Db.php;f3;54;15;54;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="param;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Db.php;f36;34;42;34;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="getLastSql;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Db.php;f17;23;38;23;;;;vpos;;v;;r;;d-1,-1;;b1,0;;m">
+				</treenode>
+				<treenode node="getVersion;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Db.php;f17;26;38;26;;;;vpos;;v;;r;;d-1,-1;;b1,0;;m">
+				</treenode>
+				<treenode node="insert;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Db.php;f17;19;57;19;;;;vpos;;v;;r;;d-1,-1;;b1,0;;mtable;;pdata;;p">
+					<treenode node="data;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Db.php;f41;19;46;19;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="table;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Db.php;f33;19;39;19;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="isMasterSlave;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Db.php;f8;66;2;69;;;;vpos;;v;;r;;d1,67;;b1,0;;m">
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Db.php;f15;68;20;68;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="isUseWeight;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Db.php;f8;76;2;79;;;;vpos;;v;;r;;d1,77;;b1,0;;m">
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Db.php;f15;78;20;78;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="resultArray;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Db.php;f17;15;39;15;;;;vpos;;v;;r;;d-1,-1;;b1,0;;m">
+				</treenode>
+				<treenode node="rowArray;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Db.php;f17;16;36;16;;;;vpos;;v;;r;;d-1,-1;;b1,0;;m">
+				</treenode>
+				<treenode node="rowColOne;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Db.php;f17;18;37;18;;;;vpos;;v;;r;;d-1,-1;;b1,0;;m">
+				</treenode>
+				<treenode node="update;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Db.php;f17;20;72;20;;;;vpos;;v;;r;;d-1,-1;;b1,0;;mtable;;pdata;;pwhere;;p">
+					<treenode node="data;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Db.php;f41;20;46;20;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="table;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Db.php;f33;20;39;20;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="where;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Db.php;f58;20;64;20;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="_conn_link;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Db.php;f8;7;19;7;;;;vpos;;v;;r;;d-1,-1;;b1,0;;m">
+				</treenode>
+				<treenode node="_db_settings;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Db.php;f11;8;24;8;;;;vpos;;v;;r;;d-1,-1;;b2,0;;m">
+				</treenode>
+				<treenode node="_instance;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Db.php;f16;10;26;10;;;;vpos;;v;;r;;d-1,-1;;b3,5;;m">
+				</treenode>
+			</treenode>
+			<treenode node="Grace_Database_Driver;PHP:Class Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter.php;f9;1;1;148;;;;vpos;;v;;r;;d0,2;;b0,0;;m">
+				<treenode node="connect;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter.php;f17;19;42;19;;;;vpos;;vClawDB;;r The DB should have a function to initiate database connection It should be configured via one variable (preferrably an array);;d-1,-1;;b1,0;;mArray $cfg;;p">
+					<treenode node="config;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter.php;f34;19;41;19;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="delete;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter.php;f17;61;69;61;;;;vpos;;vClawDB;;r Deleter for data row by primary key;;d-1,-1;;b1,0;;mstring $table;;pmixed $pk_value;;pstring $pk_field;;p">
+					<treenode node="pk_field;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter.php;f52;61;61;61;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="pk_value;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter.php;f41;61;50;61;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="table;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter.php;f33;61;39;61;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="disconnect;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter.php;f17;26;38;26;;;;vpos;;vClawDB;;r We also would want a connection-release function;;d-1,-1;;b1,0;;m">
+				</treenode>
+				<treenode node="escape;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter.php;f17;140;40;140;;;;vpos;;vstring;;r Escaper method to cleanup value from injections;;d-1,-1;;b1,0;;mstring $value;;p">
+					<treenode node="value;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter.php;f33;140;39;140;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="fetch;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter.php;f17;125;50;125;;;;vpos;;v;;r Fetches next result from result set that derrived from ClawDB::query Result must be at ClawDB::$result;;d-1,-1;;b1,0;;mArray $params;;p">
+					<treenode node="params;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter.php;f32;125;39;125;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="free;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter.php;f17;132;32;132;;;;vpos;;vClawDB;;r Releases the ClawDB::$result;;d-1,-1;;b1,0;;m">
+				</treenode>
+				<treenode node="getArray;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter.php;f17;83;60;83;;;;vpos;;vArray;;r Gets array of arrays of rows with data from SQL query. Mind the portability!;;d-1,-1;;b1,0;;mstring $sql;;pArray $params;;p">
+					<treenode node="params;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter.php;f42;83;49;83;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="sql;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter.php;f36;83;40;83;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="getByPK;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter.php;f17;40;70;40;;;;vpos;;vArray;;r This function should get an associative array of fields =&gt; values by table, primary key value, and primary key field;;d-1,-1;;b1,0;;mstring $table;;pstring $pk_value;;pstring $pk_field;;p">
+					<treenode node="pk_field;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter.php;f53;40;62;40;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="pk_value;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter.php;f42;40;51;40;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="table;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter.php;f34;40;40;40;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="getCell;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter.php;f17;105;59;105;;;;vpos;;vmixed;;r Gets single cell (usually string, not array!) from SQL query Mind the portability!;;d-1,-1;;b1,0;;mstring $sql;;pArray $params;;p">
+					<treenode node="params;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter.php;f41;105;48;105;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="sql;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter.php;f35;105;39;105;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="getInsertId;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter.php;f17;147;39;147;;;;vpos;;vmixed;;r Gets last_insert_id;;d-1,-1;;b1,0;;m">
+				</treenode>
+				<treenode node="getRow;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter.php;f17;94;58;94;;;;vpos;;vArray;;r Gets array of row data from SQL query Mind the portability!;;d-1,-1;;b1,0;;mstring $sql;;pArray $params;;p">
+					<treenode node="params;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter.php;f40;94;47;94;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="sql;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter.php;f34;94;38;94;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="init;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter.php;f8;6;2;9;;;;vpos;;v;;r;;d1,7;;b1,0;;msettings;;p">
+					<treenode node="settings;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter.php;f22;6;31;6;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter.php;f2;8;7;8;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="insert;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter.php;f17;51;57;51;;;;vpos;;vClawDB;;r Define table and provide array of data to be inserted the rest of insertion process (including variable sterilization to avoid SQL injections, binding, etc should depend on implementation);;d-1,-1;;b1,0;;mstring $table;;pArray $data;;p">
+					<treenode node="data;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter.php;f41;51;46;51;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="table;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter.php;f33;51;39;51;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="query;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter.php;f17;117;56;117;;;;vpos;;vint;;r Gets result set (whatever the kind..) from SQL query Should assign the result to ClawDB::$result Mind the portability!;;d-1,-1;;b1,0;;mstring $sql;;pArray $params;;p">
+					<treenode node="params;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter.php;f38;117;45;117;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="sql;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter.php;f32;117;36;117;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="update;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter.php;f17;72;86;72;;;;vpos;;vClawDB;;r Update method, which is meant to modify ONE record BY primary key;;d-1,-1;;b1,0;;mstring $table;;pArray $data;;pmixed $pk_value;;pstring $pk_field;;p">
+					<treenode node="data;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter.php;f41;72;46;72;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="pk_field;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter.php;f69;72;78;72;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="pk_value;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter.php;f58;72;67;72;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="table;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter.php;f33;72;39;72;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="settings;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter.php;f8;4;17;4;;;;vpos;;v;;r;;d-1,-1;;b1,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="Grace_Database_Driver_Mysql;PHP:Class Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Mysql.php;f0;9;1;248;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\v_Mysql.php;f0;1;1;200;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\O_Mysql.php;f0;9;1;248;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Mysql.php;f0;1;1;219;;;;vpos;;vGrace_Database_Db;;c;;r;;d0,2;;b0,0;;m">
+				<treenode node="__construct;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\v_Mysql.php;f8;4;2;7;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Mysql.php;f8;4;2;7;;;;vpos;;v;;r;;d1,5;;b1,0;;msettings;;p">
+					<treenode node="settings;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\v_Mysql.php;f29;4;38;4;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Mysql.php;f29;4;38;4;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\v_Mysql.php;f2;6;7;6;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="_query;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\v_Mysql.php;f11;195;2;199;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Mysql.php;f11;214;2;218;;;;vpos;;v;;r;;d1,215;;b2,0;;msql;;p">
+					<treenode node="sql;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\v_Mysql.php;f27;195;31;195;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\Mysql.php;f27;214;31;214;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\Mysql.php;f27;214;31;214;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Mysql.php;f27;214;31;214;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="colArray;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\v_Mysql.php;f8;145;2;148;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Mysql.php;f8;179;2;182;;;;vpos;;v;;r;;d1,180;;b1,0;;m">
+				</treenode>
+				<treenode node="connect;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Mysql.php;f8;25;2;41;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\v_Mysql.php;f8;170;2;173;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\O_Mysql.php;f8;25;2;41;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Mysql.php;f8;9;2;36;;;;vpos;;v;;r;;d1,10;;b1,0;;mdbConf;;p">
+					<treenode node="conf;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Mysql.php;f25;25;30;25;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\O_Mysql.php;f25;25;30;25;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="dbConf;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Mysql.php;f25;9;32;9;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Mysql.php;f9;40;14;40;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="curd;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\v_Mysql.php;f8;35;2;41;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Mysql.php;f8;69;2;75;;;;vpos;;v;;r;;d1,70;;b1,0;;msql;;p">
+					<treenode node="sql;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\v_Mysql.php;f22;35;26;35;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\Mysql.php;f22;69;26;69;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\Mysql.php;f22;69;26;69;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Mysql.php;f22;69;26;69;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\v_Mysql.php;f7;37;12;37;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\Mysql.php;f7;71;12;71;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\Mysql.php;f7;71;12;71;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="delete;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Mysql.php;f8;92;2;99;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\v_Mysql.php;f8;116;2;133;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\O_Mysql.php;f8;92;2;99;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Mysql.php;f8;150;2;167;;;;vpos;;vbool;;r 删除记录;;d1,151;;b1,0;;mtable;;pwhere;;p">
+					<treenode node="field;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\v_Mysql.php;f23;125;29;125;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\Mysql.php;f23;159;29;159;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\Mysql.php;f23;159;29;159;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="filter;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\v_Mysql.php;f3;123;10;123;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\Mysql.php;f3;157;10;157;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\Mysql.php;f3;157;10;157;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="pk_field;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Mysql.php;f43;92;52;92;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\O_Mysql.php;f43;92;52;92;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="pk_value;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Mysql.php;f32;92;41;92;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\O_Mysql.php;f32;92;41;92;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="sql;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Mysql.php;f3;95;7;95;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\v_Mysql.php;f2;131;6;131;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\Mysql.php;f2;165;6;165;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\Mysql.php;f2;165;6;165;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="table;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Mysql.php;f24;92;30;92;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\v_Mysql.php;f24;116;30;116;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\Mysql.php;f24;150;30;150;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\Mysql.php;f24;150;30;150;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\O_Mysql.php;f24;92;30;92;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Mysql.php;f24;150;30;150;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Mysql.php;f72;95;77;95;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\v_Mysql.php;f41;126;46;126;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\Mysql.php;f41;160;46;160;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\Mysql.php;f41;160;46;160;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="value;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\v_Mysql.php;f34;125;40;125;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\Mysql.php;f34;159;40;159;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\Mysql.php;f34;159;40;159;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="wData;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\v_Mysql.php;f3;124;9;124;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\Mysql.php;f3;158;9;158;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\Mysql.php;f3;158;9;158;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="where;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\v_Mysql.php;f32;116;38;116;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\Mysql.php;f32;150;38;150;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\Mysql.php;f32;150;38;150;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Mysql.php;f32;150;38;150;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="disconnect;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Mysql.php;f8;48;2;52;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\v_Mysql.php;f8;16;2;33;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\O_Mysql.php;f8;48;2;52;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Mysql.php;f8;45;2;62;;;;vpos;;vbool;;r 关闭数据库连接;;d1,46;;b1,0;;mbool $isCloseAll;;pstring $dbType;;p">
+					<treenode node="dbType;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\v_Mysql.php;f49;16;56;16;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\v_Mysql.php;f49;16;56;16;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\Mysql.php;f49;45;56;45;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\Mysql.php;f49;45;56;45;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Mysql.php;f49;45;56;45;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="isCloseAll;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\v_Mysql.php;f28;16;39;16;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\v_Mysql.php;f28;16;39;16;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\Mysql.php;f28;45;39;45;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\Mysql.php;f28;45;39;45;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Mysql.php;f28;45;39;45;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="link;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\v_Mysql.php;f34;19;39;19;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\v_Mysql.php;f34;19;39;19;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\Mysql.php;f34;48;39;48;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\Mysql.php;f34;48;39;48;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Mysql.php;f9;51;14;51;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\v_Mysql.php;f12;19;17;19;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\v_Mysql.php;f12;19;17;19;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\Mysql.php;f12;48;17;48;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\Mysql.php;f12;48;17;48;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="escape;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Mysql.php;f8;229;2;232;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\v_Mysql.php;f8;190;2;193;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\O_Mysql.php;f8;229;2;232;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Mysql.php;f8;209;2;212;;;;vpos;;v;;r;;d1,210;;b1,0;;mstr;;p">
+					<treenode node="str;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\v_Mysql.php;f24;190;28;190;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\v_Mysql.php;f24;190;28;190;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\Mysql.php;f24;209;28;209;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\Mysql.php;f24;209;28;209;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Mysql.php;f24;209;28;209;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\v_Mysql.php;f34;192;39;192;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\v_Mysql.php;f34;192;39;192;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\Mysql.php;f34;211;39;211;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\Mysql.php;f34;211;39;211;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="value;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Mysql.php;f24;229;30;229;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\O_Mysql.php;f24;229;30;229;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="execute;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Mysql.php;f8;64;2;67;;;;vpos;;v;;r;;d1,65;;b1,0;;m">
+				</treenode>
+				<treenode node="fetch;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Mysql.php;f8;203;2;211;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\O_Mysql.php;f8;203;2;211;;;;vpos;;v;;r Fetches next result from result set that derrived from ClawDB::query Result must be at ClawDB::$result;;d1,204;;b1,0;;mArray $params;;p">
+					<treenode node="data;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Mysql.php;f2;208;7;208;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="params;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Mysql.php;f23;203;30;203;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\O_Mysql.php;f23;203;30;203;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Mysql.php;f6;205;11;205;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="free;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Mysql.php;f8;217;2;221;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\v_Mysql.php;f8;165;2;168;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\O_Mysql.php;f8;217;2;221;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Mysql.php;f8;199;2;202;;;;vpos;;v;;r;;d1,200;;b1,0;;m">
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Mysql.php;f20;219;25;219;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="getAffectedRows;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Mysql.php;f8;244;2;247;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\O_Mysql.php;f8;244;2;247;;;;vpos;;v;;r;;d1,245;;b1,0;;m">
+				</treenode>
+				<treenode node="getArray;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Mysql.php;f8;132;2;142;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\O_Mysql.php;f8;132;2;142;;;;vpos;;vArray;;r Gets array of arrays of rows with data from SQL query. Mind the portability!;;d1,133;;b1,0;;mstring $sql;;pArray $params;;p">
+					<treenode node="params;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Mysql.php;f33;132;40;132;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\O_Mysql.php;f33;132;40;132;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="r;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Mysql.php;f9;136;11;136;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="result;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Mysql.php;f2;134;9;134;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="sql;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Mysql.php;f27;132;31;132;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\O_Mysql.php;f27;132;31;132;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Mysql.php;f2;135;7;135;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="getByPK;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Mysql.php;f8;63;2;67;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\O_Mysql.php;f8;63;2;67;;;;vpos;;vArray;;r Gets an associative array of fields =&gt; values by table, primary key value, and primary key field;;d1,64;;b1,0;;mstring $table;;pstring $pk_value;;pstring $pk_field;;p">
+					<treenode node="pk_field;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Mysql.php;f44;63;53;63;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\O_Mysql.php;f44;63;53;63;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="pk_value;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Mysql.php;f33;63;42;63;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\O_Mysql.php;f33;63;42;63;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="table;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Mysql.php;f25;63;31;63;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\O_Mysql.php;f25;63;31;63;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Mysql.php;f9;65;14;65;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="getCell;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Mysql.php;f8;168;2;176;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\O_Mysql.php;f8;168;2;176;;;;vpos;;v;;r Gets single cell (usually string, not array!) from SQL query Mind the portability!;;d1,169;;b1,0;;mparams;;p">
+					<treenode node="params;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Mysql.php;f26;168;33;168;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\O_Mysql.php;f26;168;33;168;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="result;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Mysql.php;f2;170;9;170;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Mysql.php;f12;170;17;170;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="getInsertId;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\v_Mysql.php;f8;155;30;155;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Mysql.php;f8;189;2;192;;;;vpos;;v;;r;;d1,190;;b1,0;;m">
+				</treenode>
+				<treenode node="getLastInsertPK;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Mysql.php;f8;239;2;242;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\O_Mysql.php;f8;239;2;242;;;;vpos;;vmixed;;r Returns last insert id;;d1,240;;b1,0;;m">
+				</treenode>
+				<treenode node="getLastSql;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\v_Mysql.php;f8;160;2;163;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Mysql.php;f8;194;2;197;;;;vpos;;v;;r;;d1,195;;b1,0;;m">
+				</treenode>
+				<treenode node="getRow;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Mysql.php;f8;152;2;158;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\O_Mysql.php;f8;152;2;158;;;;vpos;;v;;r Gets array of row data from SQL query Mind the portability!;;d1,153;;b1,0;;mstring $sql;;pArray $params;;p">
+					<treenode node="params;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Mysql.php;f31;152;38;152;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\O_Mysql.php;f31;152;38;152;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="result;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Mysql.php;f2;155;9;155;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="sql;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Mysql.php;f25;152;29;152;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\O_Mysql.php;f25;152;29;152;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Mysql.php;f2;154;7;154;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="getVersion;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\v_Mysql.php;f8;185;2;188;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Mysql.php;f8;204;2;207;;;;vpos;;v;;r;;d1,205;;b1,0;;m">
+				</treenode>
+				<treenode node="insert;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Mysql.php;f8;76;2;90;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\v_Mysql.php;f8;58;2;72;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\O_Mysql.php;f8;76;2;90;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Mysql.php;f8;92;2;106;;;;vpos;;vbool;;r 插入记录;;d1,93;;b1,0;;mstring $table;;parray $data;;p">
+					<treenode node="data;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Mysql.php;f32;76;37;76;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\v_Mysql.php;f32;58;37;58;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\Mysql.php;f32;92;37;92;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\Mysql.php;f32;92;37;92;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\O_Mysql.php;f32;76;37;76;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Mysql.php;f32;92;37;92;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="fields;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Mysql.php;f2;85;9;85;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\v_Mysql.php;f2;67;9;67;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\Mysql.php;f2;101;9;101;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\Mysql.php;f2;101;9;101;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="sql;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Mysql.php;f2;88;6;88;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\v_Mysql.php;f2;70;6;70;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\Mysql.php;f2;104;6;104;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\Mysql.php;f2;104;6;104;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="table;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Mysql.php;f24;76;30;76;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\v_Mysql.php;f24;58;30;58;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\Mysql.php;f24;92;30;92;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\Mysql.php;f24;92;30;92;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\O_Mysql.php;f24;76;30;76;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Mysql.php;f24;92;30;92;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Mysql.php;f12;83;17;83;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\v_Mysql.php;f12;65;17;65;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\Mysql.php;f12;99;17;99;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\Mysql.php;f12;99;17;99;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="value;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Mysql.php;f21;82;27;82;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\v_Mysql.php;f21;64;27;64;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\Mysql.php;f21;98;27;98;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\Mysql.php;f21;98;27;98;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="values;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Mysql.php;f2;86;9;86;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\v_Mysql.php;f2;68;9;68;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\Mysql.php;f2;102;9;102;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\Mysql.php;f2;102;9;102;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="query;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Mysql.php;f8;187;2;195;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\v_Mysql.php;f8;43;2;49;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\O_Mysql.php;f8;187;2;195;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Mysql.php;f8;77;2;83;;;;vpos;;v;;r;;d1,78;;b1,0;;msql;;p">
+					<treenode node="params;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Mysql.php;f29;187;36;187;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\O_Mysql.php;f29;187;36;187;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="sql;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Mysql.php;f23;187;27;187;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\v_Mysql.php;f23;43;27;43;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\v_Mysql.php;f23;43;27;43;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\Mysql.php;f23;77;27;77;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\Mysql.php;f23;77;27;77;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\O_Mysql.php;f23;187;27;187;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Mysql.php;f23;77;27;77;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Mysql.php;f8;189;13;189;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\v_Mysql.php;f7;45;12;45;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\v_Mysql.php;f7;45;12;45;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\Mysql.php;f7;79;12;79;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\Mysql.php;f7;79;12;79;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="resultArray;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\v_Mysql.php;f8;135;2;138;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Mysql.php;f8;169;2;172;;;;vpos;;v;;r;;d1,170;;b1,0;;m">
+				</treenode>
+				<treenode node="rowArray;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\v_Mysql.php;f8;140;2;143;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Mysql.php;f8;174;2;177;;;;vpos;;v;;r;;d1,175;;b1,0;;m">
+				</treenode>
+				<treenode node="rowColOne;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\v_Mysql.php;f8;150;2;153;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Mysql.php;f8;184;2;187;;;;vpos;;v;;r;;d1,185;;b1,0;;m">
+				</treenode>
+				<treenode node="selectDb;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\v_Mysql.php;f8;175;2;178;;;;vpos;;v;;r;;d1,15;;b1,0;;m">
+				</treenode>
+				<treenode node="setCharset;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\v_Mysql.php;f8;180;2;183;;;;vpos;;v;;r;;d1,20;;b1,0;;m">
+				</treenode>
+				<treenode node="update;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Mysql.php;f8;110;2;121;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\v_Mysql.php;f8;82;2;106;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\O_Mysql.php;f8;110;2;121;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Mysql.php;f8;116;2;140;;;;vpos;;vbool;;r 更新记录;;d1,117;;b1,0;;mstring $table;;parray $data;;pmixed $where;;p">
+					<treenode node="data;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Mysql.php;f32;110;37;110;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\v_Mysql.php;f32;82;37;82;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\Mysql.php;f32;116;37;116;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\Mysql.php;f32;116;37;116;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\O_Mysql.php;f32;110;37;110;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Mysql.php;f32;116;37;116;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="field;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Mysql.php;f20;113;26;113;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\v_Mysql.php;f20;89;26;89;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\Mysql.php;f20;123;26;123;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\Mysql.php;f20;123;26;123;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="filter;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\v_Mysql.php;f3;94;10;94;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\Mysql.php;f3;128;10;128;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\Mysql.php;f3;128;10;128;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="pk_field;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Mysql.php;f60;110;69;110;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\O_Mysql.php;f60;110;69;110;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="pk_value;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Mysql.php;f49;110;58;110;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\O_Mysql.php;f49;110;58;110;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="sql;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Mysql.php;f2;117;6;117;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\v_Mysql.php;f2;102;6;102;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\Mysql.php;f2;136;6;136;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\Mysql.php;f2;136;6;136;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="table;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Mysql.php;f24;110;30;110;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\v_Mysql.php;f24;82;30;82;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\Mysql.php;f24;116;30;116;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\Mysql.php;f24;116;30;116;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\O_Mysql.php;f24;110;30;110;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Mysql.php;f24;116;30;116;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Mysql.php;f40;114;45;114;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\v_Mysql.php;f40;90;45;90;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\Mysql.php;f40;124;45;124;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\Mysql.php;f40;124;45;124;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="uData;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Mysql.php;f2;112;8;112;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\v_Mysql.php;f2;88;8;88;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\Mysql.php;f2;122;8;122;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\Mysql.php;f2;122;8;122;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="value;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Mysql.php;f31;113;37;113;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\v_Mysql.php;f31;89;37;89;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\Mysql.php;f31;123;37;123;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\Mysql.php;f31;123;37;123;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="wData;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\v_Mysql.php;f3;95;9;95;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\Mysql.php;f3;129;9;129;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\Mysql.php;f3;129;9;129;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="where;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\v_Mysql.php;f49;82;55;82;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\Mysql.php;f49;116;55;116;;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Driver\Mysql.php;f49;116;55;116;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Mysql.php;f49;116;55;116;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="_result;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Mysql.php;f11;16;19;16;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\O_Mysql.php;f11;16;19;16;;;;vposMySQL;;v;;r;;d-1,-1;;b2,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="Grace_Database_Driver_Oracle;PHP:Class Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Oracle.php;f0;8;1;254;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Oracle.php;f0;8;1;254;;;;vpos;;vGrace_Database_Driver;;c;;r;;d0,9;;b0,0;;m">
+				<treenode node="connect;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Oracle.php;f8;37;2;50;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Oracle.php;f8;37;2;50;;;;vpos;;v;;r Connects to database;;d1,38;;b1,0;;mArray $cfg;;p">
+					<treenode node="conf;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Oracle.php;f25;37;30;37;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Oracle.php;f25;37;30;37;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="err;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Oracle.php;f3;45;7;45;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Oracle.php;f7;43;12;43;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="delete;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Oracle.php;f8;97;2;104;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Oracle.php;f8;97;2;104;;;;vpos;;v;;r;;d1,98;;b1,0;;mtable;;ppk_value;;ppk_field;;p">
+					<treenode node="pk_field;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Oracle.php;f43;97;52;97;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Oracle.php;f43;97;52;97;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="pk_value;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Oracle.php;f32;97;41;97;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Oracle.php;f32;97;41;97;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="table;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Oracle.php;f24;97;30;97;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Oracle.php;f24;97;30;97;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Oracle.php;f3;101;8;101;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="disconnect;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Oracle.php;f8;55;2;59;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Oracle.php;f8;55;2;59;;;;vpos;;v;;r;;d1,56;;b1,0;;m">
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Oracle.php;f13;57;18;57;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="escape;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Oracle.php;f8;240;2;243;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Oracle.php;f8;240;2;243;;;;vpos;;vstring;;r Escaper. As it's oracle, no need for escaping...;;d1,241;;b1,0;;mstring $value;;p">
+					<treenode node="value;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Oracle.php;f24;240;30;240;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Oracle.php;f24;240;30;240;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="fetch;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Oracle.php;f8;221;2;224;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Oracle.php;f8;221;2;224;;;;vpos;;v;;r Fetches next result from result set that derrived from ClawDB::query Result must be at ClawDB::$result;;d1,222;;b1,0;;mArray $params;;p">
+					<treenode node="params;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Oracle.php;f23;221;30;221;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Oracle.php;f23;221;30;221;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Oracle.php;f26;223;31;223;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="free;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Oracle.php;f8;229;2;232;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Oracle.php;f8;229;2;232;;;;vpos;;v;;r;;d1,230;;b1,0;;m">
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Oracle.php;f22;231;27;231;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="getArray;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Oracle.php;f8;134;2;144;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Oracle.php;f8;134;2;144;;;;vpos;;vArray;;r Gets array of arrays of rows with data from SQL query. Mind the portability!;;d1,135;;b1,0;;mstring $sql;;pArray $params;;p">
+					<treenode node="params;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Oracle.php;f33;134;40;134;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Oracle.php;f33;134;40;134;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="r;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Oracle.php;f9;138;11;138;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="result;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Oracle.php;f2;136;9;136;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="sql;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Oracle.php;f27;134;31;134;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Oracle.php;f27;134;31;134;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Oracle.php;f2;137;7;137;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="getByPK;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Oracle.php;f8;70;2;74;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Oracle.php;f8;70;2;74;;;;vpos;;vArray;;r Gets an associative array of fields =&gt; values by table, primary key value, and primary key field;;d1,71;;b1,0;;mstring $table;;pstring $pk_value;;pstring $pk_field;;p">
+					<treenode node="pk_field;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Oracle.php;f44;70;53;70;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Oracle.php;f44;70;53;70;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="pk_value;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Oracle.php;f33;70;42;70;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Oracle.php;f33;70;42;70;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="table;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Oracle.php;f25;70;31;70;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Oracle.php;f25;70;31;70;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Oracle.php;f9;72;14;72;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="getCell;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Oracle.php;f8;170;2;180;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Oracle.php;f8;170;2;180;;;;vpos;;v;;r Gets single cell (usually string, not array!) from SQL query Mind the portability!;;d1,171;;b1,0;;mstring $sql;;pArray $params;;p">
+					<treenode node="params;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Oracle.php;f32;170;39;170;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Oracle.php;f32;170;39;170;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="result;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Oracle.php;f2;173;9;173;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="sql;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Oracle.php;f26;170;30;170;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Oracle.php;f26;170;30;170;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Oracle.php;f2;172;7;172;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="getLastInsertPK;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Oracle.php;f8;250;2;253;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Oracle.php;f8;250;2;253;;;;vpos;;vmixed;;r Returns last insert id;;d1,251;;b1,0;;m">
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Oracle.php;f9;252;14;252;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="getRow;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Oracle.php;f8;154;2;160;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Oracle.php;f8;154;2;160;;;;vpos;;v;;r Gets array of row data from SQL query Mind the portability!;;d1,155;;b1,0;;mstring $sql;;pArray $params;;p">
+					<treenode node="params;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Oracle.php;f31;154;38;154;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Oracle.php;f31;154;38;154;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="result;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Oracle.php;f2;157;9;157;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="sql;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Oracle.php;f25;154;29;154;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Oracle.php;f25;154;29;154;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Oracle.php;f2;156;7;156;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="insert;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Oracle.php;f8;83;2;95;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Oracle.php;f8;83;2;95;;;;vpos;;v;;r Define table and provide array of data to be inserted, this function does the operation;;d1,84;;b1,0;;mstring $table;;pArray $data;;p">
+					<treenode node="bindings;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Oracle.php;f2;86;11;86;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="data;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Oracle.php;f32;83;37;83;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Oracle.php;f32;83;37;83;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="fields;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Oracle.php;f2;85;9;85;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="key;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Oracle.php;f20;87;24;87;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="pk_field;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Oracle.php;f20;94;29;94;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="table;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Oracle.php;f24;83;30;83;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Oracle.php;f24;83;30;83;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Oracle.php;f22;91;27;91;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="value;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Oracle.php;f29;87;35;87;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="query;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Oracle.php;f8;191;2;213;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Oracle.php;f8;191;2;213;;;;vpos;;v;;r Gets result set (whatever the kind..) from SQL query Should assign the result to ClawDB::$result Mind the portability!;;d1,192;;b1,0;;mstring $sql;;pArray $params;;p">
+					<treenode node="err;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Oracle.php;f3;208;7;208;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="k;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Oracle.php;f22;199;24;199;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="ok;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Oracle.php;f2;204;5;204;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="params;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Oracle.php;f29;191;36;191;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Oracle.php;f29;191;36;191;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="sql;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Oracle.php;f23;191;27;191;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Oracle.php;f23;191;27;191;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Oracle.php;f2;193;7;193;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="v;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Oracle.php;f29;199;31;199;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="update;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Oracle.php;f8;114;2;123;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Oracle.php;f8;114;2;123;;;;vpos;;v;;r Update method, which is meant to modify ONE record BY primary key;;d1,115;;b1,0;;mstring $table;;pArray $data;;pmixed $pk_value;;pstring $pk_field;;p">
+					<treenode node="data;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Oracle.php;f32;114;37;114;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Oracle.php;f32;114;37;114;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="field;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Oracle.php;f20;117;26;117;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="pk_field;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Oracle.php;f60;114;69;114;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Oracle.php;f60;114;69;114;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="pk_value;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Oracle.php;f49;114;58;114;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Oracle.php;f49;114;58;114;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="sql;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Oracle.php;f2;116;6;116;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="table;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Oracle.php;f24;114;30;114;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Oracle.php;f24;114;30;114;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Oracle.php;f2;121;7;121;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="value;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Oracle.php;f31;117;37;117;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="conn;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Oracle.php;f11;29;16;29;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Oracle.php;f11;29;16;29;;;;vposOracle;;v;;r;;d-1,-1;;b2,0;;m">
+				</treenode>
+				<treenode node="last_pk;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Oracle.php;f11;22;19;22;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Oracle.php;f11;22;19;22;;;;vposint;;v;;r;;d-1,-1;;b2,0;;m">
+				</treenode>
+				<treenode node="stmt;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Oracle.php;f11;15;16;15;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Oracle.php;f11;15;16;15;;;;vposOracle;;v;;r;;d-1,-1;;b2,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="Grace_Database_Driver_Postgresql;PHP:Class Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Postgresql.php;f0;9;1;291;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Postgresql.php;f0;9;1;291;;;;vpos;;vGrace_Database_Driver;;c;;r;;d0,10;;b0,0;;m">
+				<treenode node="connect;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Postgresql.php;f8;30;2;44;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Postgresql.php;f8;30;2;44;;;;vpos;;vPostgreSQLClawDB;;r Connects to database;;d1,31;;b1,0;;mArray $cfg;;p">
+					<treenode node="conf;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Postgresql.php;f25;30;30;30;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Postgresql.php;f25;30;30;30;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="delete;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Postgresql.php;f8;103;2;112;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Postgresql.php;f8;103;2;112;;;;vpos;;vOracleClawDB;;r Deletes entry from table by primary key;;d1,104;;b1,0;;mstring $table;;pmixed $pk_value;;pstring $pk_field;;p">
+					<treenode node="pk_field;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Postgresql.php;f43;103;52;103;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Postgresql.php;f43;103;52;103;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="pk_value;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Postgresql.php;f32;103;41;103;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Postgresql.php;f32;103;41;103;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="table;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Postgresql.php;f24;103;30;103;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Postgresql.php;f24;103;30;103;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="disconnect;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Postgresql.php;f8;51;2;55;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Postgresql.php;f8;51;2;55;;;;vpos;;vOracleClawDB;;r Disconnector;;d1,52;;b1,0;;m">
+				</treenode>
+				<treenode node="escape;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Postgresql.php;f8;260;2;279;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Postgresql.php;f8;260;2;279;;;;vpos;;vstring;;r Escaper;;d1,261;;b1,0;;mvalue;;p">
+					<treenode node="value;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Postgresql.php;f24;260;30;260;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Postgresql.php;f24;260;30;260;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="fetch;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Postgresql.php;f8;227;2;230;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Postgresql.php;f8;227;2;230;;;;vpos;;v;;r Fetches next result from result set that derrived from ClawDB::query Result must be at ClawDB::$result;;d1,228;;b1,0;;mArray $params;;p">
+					<treenode node="params;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Postgresql.php;f23;227;30;227;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Postgresql.php;f23;227;30;227;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="fetchObject;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Postgresql.php;f8;238;2;241;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Postgresql.php;f8;238;2;241;;;;vpos;;vobject;;r Fetches next result as object from result set that derrived from ClawDB::query Result must be at ClawDB::$result;;d1,239;;b1,0;;m">
+				</treenode>
+				<treenode node="free;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Postgresql.php;f8;248;2;252;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Postgresql.php;f8;248;2;252;;;;vpos;;vOracleClawDB;;r Releases the ClawDB::$result;;d1,249;;b1,0;;m">
+				</treenode>
+				<treenode node="getArray;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Postgresql.php;f8;146;2;156;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Postgresql.php;f8;146;2;156;;;;vpos;;vArray;;r Gets array of arrays of rows with data from SQL query. Mind the portability!;;d1,147;;b1,0;;mstring $sql;;pArray $params;;p">
+					<treenode node="params;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Postgresql.php;f33;146;40;146;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Postgresql.php;f33;146;40;146;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="sql;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Postgresql.php;f27;146;31;146;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Postgresql.php;f27;146;31;146;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="getByPK;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Postgresql.php;f8;66;2;71;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Postgresql.php;f8;66;2;71;;;;vpos;;vArray;;r Gets an associative array of fields =&gt; values by table, primary key value, and primary key field;;d1,67;;b1,0;;mstring $table;;pstring $pk_value;;pstring $pk_field;;p">
+					<treenode node="pk_field;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Postgresql.php;f44;66;53;66;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Postgresql.php;f44;66;53;66;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="pk_value;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Postgresql.php;f33;66;42;66;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Postgresql.php;f33;66;42;66;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="table;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Postgresql.php;f25;66;31;66;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Postgresql.php;f25;66;31;66;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="getCell;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Postgresql.php;f8;182;2;192;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Postgresql.php;f8;182;2;192;;;;vpos;;v;;r Gets single cell (usually string, not array!) from SQL query Mind the portability!;;d1,183;;b1,0;;mstring $sql;;pArray $params;;p">
+					<treenode node="params;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Postgresql.php;f32;182;39;182;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Postgresql.php;f32;182;39;182;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="sql;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Postgresql.php;f26;182;30;182;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Postgresql.php;f26;182;30;182;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="getLastInsertPK;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Postgresql.php;f8;287;2;290;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Postgresql.php;f8;287;2;290;;;;vpos;;vmixed;;r Returns last insert id;;d1,288;;b1,0;;m">
+				</treenode>
+				<treenode node="getRow;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Postgresql.php;f8;166;2;172;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Postgresql.php;f8;166;2;172;;;;vpos;;v;;r Gets array of row data from SQL query Mind the portability!;;d1,167;;b1,0;;mstring $sql;;pArray $params;;p">
+					<treenode node="params;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Postgresql.php;f31;166;38;166;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Postgresql.php;f31;166;38;166;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="sql;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Postgresql.php;f25;166;29;166;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Postgresql.php;f25;166;29;166;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="insert;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Postgresql.php;f8;81;2;93;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Postgresql.php;f8;81;2;93;;;;vpos;;vOracleClawDB;;r Define table and provide array of data to be inserted, this function does the operation;;d1,82;;b1,0;;mstring $table;;pArray $data;;p">
+					<treenode node="data;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Postgresql.php;f32;81;37;81;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Postgresql.php;f32;81;37;81;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="table;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Postgresql.php;f24;81;30;81;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Postgresql.php;f24;81;30;81;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="query;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Postgresql.php;f8;203;2;219;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Postgresql.php;f8;203;2;219;;;;vpos;;v;;r Gets result set (whatever the kind..) from SQL query Should assign the result to ClawDB::$result Mind the portability!;;d1,204;;b1,0;;mstring $sql;;pArray $params;;p">
+					<treenode node="params;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Postgresql.php;f29;203;36;203;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Postgresql.php;f29;203;36;203;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="sql;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Postgresql.php;f23;203;27;203;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Postgresql.php;f23;203;27;203;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="update;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Postgresql.php;f8;123;2;135;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Postgresql.php;f8;123;2;135;;;;vpos;;vOracleClawDB;;r Update method, which is meant to modify ONE record BY primary key;;d1,124;;b1,0;;mstring $table;;pArray $data;;pmixed $pk_value;;pstring $pk_field;;p">
+					<treenode node="data;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Postgresql.php;f32;123;37;123;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Postgresql.php;f32;123;37;123;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="pk_field;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Postgresql.php;f60;123;69;123;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Postgresql.php;f60;123;69;123;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="pk_value;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Postgresql.php;f49;123;58;123;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Postgresql.php;f49;123;58;123;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="table;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Postgresql.php;f24;123;30;123;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Postgresql.php;f24;123;30;123;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="conn;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Postgresql.php;f11;21;16;21;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Postgresql.php;f11;21;16;21;;;;vpos;;v;;r;;d-1,-1;;b2,0;;m">
+				</treenode>
+				<treenode node="result;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Postgresql.php;f11;16;18;16;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Postgresql.php;f11;16;18;16;;;;vposPostgreSQL;;v;;r;;d-1,-1;;b2,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="Grace_Database_Driver_Sqlite;PHP:Class Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Sqlite.php;f0;9;1;253;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Sqlite.php;f0;9;1;253;;;;vpos;;vGrace_Database_Driver;;c;;r;;d0,10;;b0,0;;m">
+				<treenode node="connect;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Sqlite.php;f8;31;2;41;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Sqlite.php;f8;31;2;41;;;;vpos;;vSQLiteClawDB;;r Connects to database;;d1,32;;b1,0;;mArray $cfg;;p">
+					<treenode node="conf;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Sqlite.php;f25;31;30;31;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Sqlite.php;f25;31;30;31;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="error;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Sqlite.php;f2;33;8;33;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Sqlite.php;f2;34;7;34;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="delete;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Sqlite.php;f8;98;2;106;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Sqlite.php;f8;98;2;106;;;;vpos;;vSQLiteClawDB;;r Deletes entry by primary key;;d1,99;;b1,0;;mstring $table;;pmixed $pk_value;;pstring $pk_field;;p">
+					<treenode node="pk_field;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Sqlite.php;f43;98;52;98;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Sqlite.php;f43;98;52;98;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="pk_value;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Sqlite.php;f32;98;41;98;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Sqlite.php;f32;98;41;98;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="table;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Sqlite.php;f24;98;30;98;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Sqlite.php;f24;98;30;98;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Sqlite.php;f3;102;8;102;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="disconnect;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Sqlite.php;f8;48;2;52;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Sqlite.php;f8;48;2;52;;;;vpos;;vSQLiteClawDB;;r Disconnector;;d1,49;;b1,0;;m">
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Sqlite.php;f16;50;21;50;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="escape;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Sqlite.php;f8;239;2;242;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Sqlite.php;f8;239;2;242;;;;vpos;;vstring;;r Escaper;;d1,240;;b1,0;;mstring $value;;p">
+					<treenode node="value;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Sqlite.php;f24;239;30;239;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Sqlite.php;f24;239;30;239;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="fetch;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Sqlite.php;f8;217;2;220;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Sqlite.php;f8;217;2;220;;;;vpos;;v;;r Fetches next result from result set that derrived from ClawDB::query Result must be at ClawDB::$result;;d1,218;;b1,0;;mArray $params;;p">
+					<treenode node="params;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Sqlite.php;f23;217;30;217;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Sqlite.php;f23;217;30;217;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Sqlite.php;f28;219;33;219;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="free;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Sqlite.php;f8;227;2;231;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Sqlite.php;f8;227;2;231;;;;vpos;;vSQLiteClawDB;;r Releases the ClawDB::$result;;d1,228;;b1,0;;m">
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Sqlite.php;f2;229;7;229;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="getArray;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Sqlite.php;f8;145;2;155;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Sqlite.php;f8;145;2;155;;;;vpos;;vArray;;r Gets array of arrays of rows with data from SQL query. Mind the portability!;;d1,146;;b1,0;;mstring $sql;;pArray $params;;p">
+					<treenode node="params;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Sqlite.php;f33;145;40;145;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Sqlite.php;f33;145;40;145;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="result;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Sqlite.php;f2;147;9;147;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="sql;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Sqlite.php;f27;145;31;145;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Sqlite.php;f27;145;31;145;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Sqlite.php;f2;148;7;148;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="getByPK;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Sqlite.php;f8;63;2;67;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Sqlite.php;f8;63;2;67;;;;vpos;;vArray;;r Gets an associative array of fields =&gt; values by table, primary key value, and primary key field;;d1,64;;b1,0;;mstring $table;;pstring $pk_value;;pstring $pk_field;;p">
+					<treenode node="pk_field;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Sqlite.php;f44;63;53;63;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Sqlite.php;f44;63;53;63;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="pk_value;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Sqlite.php;f33;63;42;63;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Sqlite.php;f33;63;42;63;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="table;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Sqlite.php;f25;63;31;63;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Sqlite.php;f25;63;31;63;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Sqlite.php;f9;65;14;65;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="getCell;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Sqlite.php;f8;181;2;188;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Sqlite.php;f8;181;2;188;;;;vpos;;v;;r Gets single cell (usually string, not array!) from SQL query Mind the portability!;;d1,182;;b1,0;;mstring $sql;;pArray $params;;p">
+					<treenode node="params;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Sqlite.php;f32;181;39;181;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Sqlite.php;f32;181;39;181;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="result;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Sqlite.php;f2;184;9;184;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="sql;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Sqlite.php;f26;181;30;181;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Sqlite.php;f26;181;30;181;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Sqlite.php;f2;183;7;183;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="getLastInsertPK;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Sqlite.php;f8;249;2;252;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Sqlite.php;f8;249;2;252;;;;vpos;;vmixed;;r Returns last insert id;;d1,250;;b1,0;;m">
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Sqlite.php;f34;251;39;251;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="getRow;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Sqlite.php;f8;165;2;171;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Sqlite.php;f8;165;2;171;;;;vpos;;v;;r Gets array of row data from SQL query Mind the portability!;;d1,166;;b1,0;;mstring $sql;;pArray $params;;p">
+					<treenode node="params;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Sqlite.php;f31;165;38;165;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Sqlite.php;f31;165;38;165;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="result;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Sqlite.php;f2;168;9;168;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="sql;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Sqlite.php;f25;165;29;165;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Sqlite.php;f25;165;29;165;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Sqlite.php;f2;167;7;167;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="insert;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Sqlite.php;f8;77;2;88;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Sqlite.php;f8;77;2;88;;;;vpos;;vSQLiteClawDB;;r Define table and provide array of data to be inserted, this function does the operation;;d1,78;;b1,0;;mstring $table;;pArray $data;;p">
+					<treenode node="data;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Sqlite.php;f32;77;37;77;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Sqlite.php;f32;77;37;77;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="fields;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Sqlite.php;f2;79;9;79;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="key;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Sqlite.php;f20;80;24;80;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="table;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Sqlite.php;f24;77;30;77;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Sqlite.php;f24;77;30;77;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Sqlite.php;f2;85;7;85;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="value;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Sqlite.php;f29;80;35;80;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="values;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Sqlite.php;f2;84;9;84;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="query;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Sqlite.php;f8;201;2;209;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Sqlite.php;f8;201;2;209;;;;vpos;;vint;;r Gets result set (whatever the kind..) from SQL query Should assign the result to ClawDB::$result Mind the portability!;;d1,202;;b1,0;;mstring $sql;;pArray $params;;p">
+					<treenode node="params;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Sqlite.php;f29;201;36;201;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Sqlite.php;f29;201;36;201;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="sql;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Sqlite.php;f23;201;27;201;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Sqlite.php;f23;201;27;201;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Sqlite.php;f8;203;13;203;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="update;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Sqlite.php;f8;117;2;134;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Sqlite.php;f8;117;2;134;;;;vpos;;vSQLiteClawDB;;r Update method, which is meant to modify ONE record BY primary key;;d1,118;;b1,0;;mstring $table;;pArray $data;;pmixed $pk_value;;pstring $pk_field;;p">
+					<treenode node="data;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Sqlite.php;f32;117;37;117;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Sqlite.php;f32;117;37;117;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="field;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Sqlite.php;f20;120;26;120;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="fields;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Sqlite.php;f2;124;9;124;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="key;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Sqlite.php;f20;125;24;125;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="pk_field;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Sqlite.php;f60;117;69;117;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Sqlite.php;f60;117;69;117;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="pk_value;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Sqlite.php;f49;117;58;117;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Sqlite.php;f49;117;58;117;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="sql;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Sqlite.php;f2;119;6;119;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="table;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Sqlite.php;f24;117;30;117;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Sqlite.php;f24;117;30;117;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Sqlite.php;f2;130;7;130;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="value;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Sqlite.php;f31;120;37;120;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="values;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Sqlite.php;f2;129;9;129;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="db;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Sqlite.php;f11;23;14;23;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Sqlite.php;f11;23;14;23;;;;vposSQLite;;v;;r;;d-1,-1;;b2,0;;m">
+				</treenode>
+				<treenode node="result;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module\Database\Adapter\Sqlite.php;f11;16;18;16;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Sqlite.php;f11;16;18;16;;;;vposSQLite;;v;;r;;d-1,-1;;b2,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="Grace_Database_Exception_Mysql;PHP:Class Name;C:\Users\chinkei.chen\Desktop\module\Database\Exception\Mysql.php;f0;1;1;4;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Exception\Mysql.php;f0;1;1;4;;;;vpos;;vException;;c;;r;;d0,2;;b0,0;;m">
+			</treenode>
+			<treenode node="Grace_Database_Exception_Oracle;PHP:Class Name;C:\Users\chinkei.chen\Desktop\module\Database\Exception\Oracle.php;f0;1;1;4;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Exception\Oracle.php;f0;1;1;4;;;;vpos;;vException;;c;;r;;d0,2;;b0,0;;m">
+			</treenode>
+			<treenode node="Grace_Database_Exception_Postgresql;PHP:Class Name;C:\Users\chinkei.chen\Desktop\module\Database\Exception\Postgresql.php;f0;1;1;4;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Exception\Postgresql.php;f0;1;1;4;;;;vpos;;vException;;c;;r;;d0,2;;b0,0;;m">
+			</treenode>
+			<treenode node="Grace_Database_Exception_Sqlite;PHP:Class Name;C:\Users\chinkei.chen\Desktop\module\Database\Exception\Sqlite.php;f0;1;1;4;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Exception\Sqlite.php;f0;1;1;4;;;;vpos;;vException;;c;;r;;d0,2;;b0,0;;m">
+			</treenode>
+			<treenode node="Grace_IO_Input;PHP:Class Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Input.php;f0;3;1;346;;;;vpos;;v;;r;;d0,4;;b0,0;;m">
+				<treenode node="__clone;PHP:Function Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Input.php;f9;13;30;13;;;;vpos;;v;;r;;d28,13;;b3,0;;m">
+				</treenode>
+				<treenode node="__construct;PHP:Function Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Input.php;f9;18;34;18;;;;vpos;;v;;r;;d32,18;;b3,0;;m">
+				</treenode>
+				<treenode node="_getData;PHP:Function Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Input.php;f9;120;2;133;;;;vpos;;vmixed;;r 获取数组中某个元素的值;;d1,121;;b3,0;;mkey;;parray;;pisXss;;p">
+					<treenode node="array;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Input.php;f38;120;44;120;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="data;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Input.php;f2;122;7;122;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="isXss;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Input.php;f56;120;62;120;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="key;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Input.php;f27;120;31;120;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="cookie;PHP:Function Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Input.php;f8;58;2;61;;;;vpos;;v;;r;;d1,59;;b1,0;;mkey;;pisXss;;p">
+					<treenode node="_COOKIE;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Input.php;f31;60;39;60;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="isXss;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Input.php;f35;58;41;58;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="key;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Input.php;f24;58;28;58;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Input.php;f9;60;14;60;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="env;PHP:Function Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Input.php;f8;91;2;94;;;;vpos;;vmixed;;r 获取REQUEST传递过来的参数;;d1,92;;b1,0;;mstring $key;;p">
+					<treenode node="_ENV;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Input.php;f31;93;36;93;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="key;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Input.php;f21;91;25;91;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Input.php;f9;93;14;93;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="get;PHP:Function Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Input.php;f8;42;2;45;;;;vpos;;vmixed;;r 获取GET传递过来的参数;;d1,43;;b1,0;;mstring $key;;pbool $isXss;;p">
+					<treenode node="_GET;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Input.php;f31;44;36;44;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="isXss;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Input.php;f32;42;38;42;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="key;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Input.php;f21;42;25;42;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Input.php;f9;44;14;44;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="getClientIp;PHP:Function Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Input.php;f8;286;2;316;;;;vpos;;vstring;;r 获取当前客户端IP地址;;d31,286;;b1,0;;m">
+					<treenode node="_SERVER;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Input.php;f14;287;22;287;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="ip;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Input.php;f3;291;6;291;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="getCookie;PHP:Function Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Input.php;f8;141;2;143;;;;vpos;;vmixed;;r 获取COOKIE数据;;d37,141;;b1,0;;mstring $key;;p">
+					<treenode node="_COOKIE;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Input.php;f62;142;70;142;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="key;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Input.php;f27;141;31;141;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="getEnv;PHP:Function Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Input.php;f8;161;2;163;;;;vpos;;vmixed;;r 获取ENV数据;;d34,161;;b1,0;;mstring $key;;p">
+					<treenode node="_ENV;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Input.php;f62;162;67;162;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="key;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Input.php;f24;161;28;161;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="getFile;PHP:Function Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Input.php;f8;171;2;179;;;;vpos;;vmixed;;r 获取FILES数据;;d35,171;;b1,0;;mstring $key;;p">
+					<treenode node="_FILES;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Input.php;f10;173;17;173;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="key;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Input.php;f25;171;29;171;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="getHost;PHP:Function Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Input.php;f8;333;2;335;;;;vpos;;vstring;;r 获取用户访问Host;;d28,333;;b1,0;;m">
+					<treenode node="_SERVER;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Input.php;f15;334;23;334;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="getInstance;PHP:Function Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Input.php;f15;27;2;33;;;;vpos;;vobject;;r 获取对象唯一实例;;d1,28;;b1,5;;m">
+					<treenode node="_instance;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Input.php;f14;29;24;29;;;;vposself;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="getIp;PHP:Function Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Input.php;f8;277;2;279;;;;vpos;;vstring;;r 获取当前客户端IP地址;;d24,277;;b1,0;;m">
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Input.php;f9;278;14;278;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="getPathInfo;PHP:Function Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Input.php;f8;222;2;244;;;;vpos;;vstring;;r 读取URL的Pathinfo;;d31,222;;b1,0;;m">
+					<treenode node="_SERVER;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Input.php;f13;224;21;224;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="pathInfo;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Input.php;f2;223;11;223;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="prefix_name;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Input.php;f4;230;16;230;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="relative_url_root;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Input.php;f7;236;25;236;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="script_name;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Input.php;f4;226;16;226;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Input.php;f19;226;24;226;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="uri_prefix;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Input.php;f4;227;15;227;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="getReferer;PHP:Function Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Input.php;f8;324;2;326;;;;vpos;;vstring;;r 获取访问来源;;d30,324;;b1,0;;m">
+					<treenode node="_SERVER;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Input.php;f9;325;17;325;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="getScriptName;PHP:Function Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Input.php;f8;343;2;345;;;;vpos;;vstring;;r getScriptName Returns current script name.;;d33,343;;b1,0;;m">
+					<treenode node="_SERVER;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Input.php;f15;344;23;344;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="getServer;PHP:Function Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Input.php;f8;151;2;153;;;;vpos;;vmixed;;r 获取SERVER数据;;d37,151;;b1,0;;mstring $key;;p">
+					<treenode node="_SERVER;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Input.php;f62;152;70;152;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="key;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Input.php;f27;151;31;151;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="getUri;PHP:Function Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Input.php;f8;252;2;269;;;;vpos;;vstring;;r 读取当前站点的URL地址;;d26,252;;b1,0;;m">
+					<treenode node="_SERVER;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Input.php;f28;253;36;253;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="host;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Input.php;f2;259;7;259;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="protocol;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Input.php;f2;257;11;257;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="standardPort;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Input.php;f2;256;15;256;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="uriPrefix;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Input.php;f2;266;12;266;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="gp;PHP:Function Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Input.php;f8;102;2;111;;;;vpos;;vmixed;;r 获取GET /POST传递过来的参数;;d1,103;;b1,0;;mkey;;pisXss;;p">
+					<treenode node="_GET;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Input.php;f12;104;17;104;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="_POST;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Input.php;f12;107;18;107;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="isXss;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Input.php;f26;102;32;102;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="key;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Input.php;f20;102;24;102;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Input.php;f10;105;15;105;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="isGet;PHP:Function Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Input.php;f8;196;2;201;;;;vpos;;vbool;;r 是否是一个GET请求;;d24,196;;b1,0;;m">
+					<treenode node="_SERVER;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Input.php;f6;197;14;197;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="isPost;PHP:Function Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Input.php;f8;209;2;214;;;;vpos;;vbool;;r 是否是一个POST请求;;d25,209;;b1,0;;m">
+					<treenode node="_SERVER;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Input.php;f6;210;14;210;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="post;PHP:Function Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Input.php;f8;53;2;56;;;;vpos;;vmixed;;r 获取POST传递过来的参数;;d1,54;;b1,0;;mkey;;pisXss;;p">
+					<treenode node="_POST;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Input.php;f31;55;37;55;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="isXss;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Input.php;f33;53;39;53;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="key;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Input.php;f22;53;26;53;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Input.php;f9;55;14;55;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="request;PHP:Function Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Input.php;f8;69;2;72;;;;vpos;;vmixed;;r 获取REQUEST传递过来的参数;;d1,70;;b1,0;;mkey;;pisXss;;p">
+					<treenode node="_REQUEST;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Input.php;f31;71;40;71;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="isXss;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Input.php;f36;69;42;69;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="key;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Input.php;f25;69;29;69;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Input.php;f9;71;14;71;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="server;PHP:Function Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Input.php;f8;80;2;83;;;;vpos;;vmixed;;r 获取REQUEST传递过来的参数;;d1,81;;b1,0;;mstring $key;;p">
+					<treenode node="_SERVER;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Input.php;f31;82;39;82;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="key;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Input.php;f24;80;28;80;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Input.php;f9;82;14;82;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="_instance;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Input.php;f8;8;18;8;;;;vposobject;;v;;r;;d-1,-1;;b0,5;;m">
+				</treenode>
+			</treenode>
+			<treenode node="IO_Ouput;PHP:Class Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Ouput.php;f0;1;1;231;;;;vpos;;v;;r;;d0,2;;b0,0;;m">
+				<treenode node="__clone;PHP:Function Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Ouput.php;f9;71;30;71;;;;vpos;;v;;r;;d28,71;;b3,0;;m">
+				</treenode>
+				<treenode node="__construct;PHP:Function Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Ouput.php;f9;76;34;76;;;;vpos;;v;;r;;d32,76;;b3,0;;m">
+				</treenode>
+				<treenode node="appendContent;PHP:Function Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Ouput.php;f8;164;2;166;;;;vpos;;vvoid;;r 附加一个HTML内容;;d40,164;;b1,0;;mstring $content;;p">
+					<treenode node="content;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Ouput.php;f31;164;39;164;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Ouput.php;f2;165;7;165;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="getContent;PHP:Function Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Ouput.php;f8;174;2;176;;;;vpos;;vstring;;r 获取设置的HTML内容;;d29,174;;b1,0;;m">
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Ouput.php;f9;175;14;175;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="getCookie;PHP:Function Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Ouput.php;f8;125;2;127;;;;vpos;;varray;;r 获取已经设置的Cookie信息;;d28,125;;b1,0;;m">
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Ouput.php;f9;126;14;126;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="getHeader;PHP:Function Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Ouput.php;f8;144;2;146;;;;vpos;;varray;;r 获取已经设置的HTTP头信息;;d28,144;;b1,0;;m">
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Ouput.php;f9;145;14;145;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="getInstance;PHP:Function Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Ouput.php;f15;85;2;90;;;;vpos;;vobject;;r 获取对象唯一实例;;d37,85;;b1,5;;m">
+					<treenode node="_instance;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Ouput.php;f14;86;24;86;;;;vposself;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="isHederSent;PHP:Function Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Ouput.php;f8;97;2;99;;;;vpos;;vbool;;r 检查HTTP头信息是否已经发送;;d30,97;;b1,0;;m">
+				</treenode>
+				<treenode node="send;PHP:Function Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Ouput.php;f8;211;2;230;;;;vpos;;vvoid;;r 发送所有组织好的HTTP输出内容;;d23,211;;b1,0;;m">
+					<treenode node="cookie;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Ouput.php;f32;219;39;219;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="head;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Ouput.php;f28;214;33;214;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Ouput.php;f13;213;18;213;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="sendHttpCookie;PHP:Function Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Ouput.php;f8;184;2;186;;;;vpos;;vvoid;;r 单独发送一个HTTP Cookie信息;;d127,184;;b1,0;;mname;;pvalue;;pexpire;;ppath;;pdomain;;psecure;;phttponly;;p">
+					<treenode node="domain;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Ouput.php;f78;184;85;184;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="expire;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Ouput.php;f52;184;59;184;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="httponly;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Ouput.php;f109;184;118;184;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="name;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Ouput.php;f32;184;37;184;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="path;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Ouput.php;f65;184;70;184;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="secure;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Ouput.php;f92;184;99;184;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="value;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Ouput.php;f39;184;45;184;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="sendHttpHeader;PHP:Function Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Ouput.php;f8;194;2;202;;;;vpos;;v;;r 单独发送一个HTTP头信息;;d51,194;;b1,0;;munknown_type $header;;punknown_type $code;;p">
+					<treenode node="code;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Ouput.php;f41;194;46;194;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="header;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Ouput.php;f32;194;39;194;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="status;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Ouput.php;f3;196;10;196;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="statusTexts;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Ouput.php;f41;196;53;196;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="setContent;PHP:Function Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Ouput.php;f8;154;2;156;;;;vpos;;vvoid;;r 设置一个需要输出的HTML内容;;d37,154;;b1,0;;mstring $content;;p">
+					<treenode node="content;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Ouput.php;f28;154;36;154;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Ouput.php;f2;155;7;155;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="setCookie;PHP:Function Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Ouput.php;f8;107;2;118;;;;vpos;;vvoid;;r 设置一个需要发送的Cookie信息;;d122,107;;b1,0;;mname;;pvalue;;pexpire;;ppath;;pdomain;;psecure;;phttponly;;p">
+					<treenode node="domain;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Ouput.php;f73;107;80;107;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="expire;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Ouput.php;f47;107;54;107;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="httponly;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Ouput.php;f104;107;113;107;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="httpOnly;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Ouput.php;f21;115;30;115;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="name;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Ouput.php;f27;107;32;107;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="path;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Ouput.php;f60;107;65;107;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="secure;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Ouput.php;f87;107;94;107;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Ouput.php;f5;108;10;108;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="value;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Ouput.php;f34;107;40;107;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="setHeader;PHP:Function Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Ouput.php;f8;135;2;137;;;;vpos;;vvoid;;r 设置需要发送的HTTP头信息;;d35,135;;b1,0;;mstring $header;;p">
+					<treenode node="header;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Ouput.php;f27;135;34;135;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Ouput.php;f2;136;7;136;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="_instance;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Ouput.php;f8;6;18;6;;;;vposobject;;v;;r;;d-1,-1;;b0,5;;m">
+				</treenode>
+				<treenode node="body;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Ouput.php;f9;18;14;18;;;;vposstring;;v;;r;;d-1,-1;;b3,0;;m">
+				</treenode>
+				<treenode node="cookies;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Ouput.php;f8;10;16;10;;;;vposarray;;v;;r;;d-1,-1;;b1,0;;m">
+				</treenode>
+				<treenode node="header;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Ouput.php;f9;14;16;14;;;;vposarray;;v;;r;;d-1,-1;;b3,0;;m">
+				</treenode>
+				<treenode node="statusTexts;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\hmvc_ceshi\hmvc_ceshi\libraries\Grace\IO\Ouput.php;f18;23;30;23;;;;vposarray;;v;;r;;d-1,-1;;b2,5;;m">
+				</treenode>
+			</treenode>
+			<treenode node="PSX_Cache_Handler_Apc;PHP:Class Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\psx_0.4.7\library\PSX\Cache\Handler\Apc.php;f0;35;1;60;;;;vpos;;vPSX_Cache_HandlerInterface;;c;;r;;d0,36;;b0,0;;m">
+				<treenode node="load;PHP:Function Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\psx_0.4.7\library\PSX\Cache\Handler\Apc.php;f8;37;2;49;;;;vpos;;v;;r;;d1,38;;b1,0;;mkey;;p">
+					<treenode node="content;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\psx_0.4.7\library\PSX\Cache\Handler\Apc.php;f3;41;11;41;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="key;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\psx_0.4.7\library\PSX\Cache\Handler\Apc.php;f22;37;26;37;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="remove;PHP:Function Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\psx_0.4.7\library\PSX\Cache\Handler\Apc.php;f8;56;2;59;;;;vpos;;v;;r;;d1,57;;b1,0;;mkey;;p">
+					<treenode node="key;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\psx_0.4.7\library\PSX\Cache\Handler\Apc.php;f24;56;28;56;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="write;PHP:Function Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\psx_0.4.7\library\PSX\Cache\Handler\Apc.php;f8;51;2;54;;;;vpos;;v;;r;;d1,52;;b1,0;;mkey;;pcontent;;pexpire;;p">
+					<treenode node="content;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\psx_0.4.7\library\PSX\Cache\Handler\Apc.php;f29;51;37;51;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="expire;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\psx_0.4.7\library\PSX\Cache\Handler\Apc.php;f39;51;46;51;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="key;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\psx_0.4.7\library\PSX\Cache\Handler\Apc.php;f23;51;27;51;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+			</treenode>
+			<treenode node="PSX_Cache_Handler_Null;PHP:Class Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\psx_0.4.7\library\PSX\Cache\Handler\Null.php;f0;35;1;49;;;;vpos;;vPSX_Cache_HandlerInterface;;c;;r;;d0,36;;b0,0;;m">
+				<treenode node="load;PHP:Function Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\psx_0.4.7\library\PSX\Cache\Handler\Null.php;f8;37;2;40;;;;vpos;;v;;r;;d1,38;;b1,0;;mkey;;p">
+					<treenode node="key;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\psx_0.4.7\library\PSX\Cache\Handler\Null.php;f22;37;26;37;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="remove;PHP:Function Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\psx_0.4.7\library\PSX\Cache\Handler\Null.php;f8;46;2;48;;;;vpos;;v;;r;;d1,47;;b1,0;;mkey;;p">
+					<treenode node="key;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\psx_0.4.7\library\PSX\Cache\Handler\Null.php;f24;46;28;46;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="write;PHP:Function Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\psx_0.4.7\library\PSX\Cache\Handler\Null.php;f8;42;2;44;;;;vpos;;v;;r;;d1,43;;b1,0;;mkey;;pcontent;;pexpire;;p">
+					<treenode node="content;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\psx_0.4.7\library\PSX\Cache\Handler\Null.php;f29;42;37;42;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="expire;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\psx_0.4.7\library\PSX\Cache\Handler\Null.php;f39;42;46;42;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="key;PHP:Var Name;C:\Users\chinkei.chen\Desktop\just_c_1\just_c\psx_0.4.7\library\PSX\Cache\Handler\Null.php;f23;42;27;42;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+			</treenode>
+			<treenode node="TM_DB_Mysql;PHP:Class Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f0;30;1;898;;;;vpos;;v;;r;;d0,31;;b0,0;;m">
+				<treenode node="_query;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f11;249;5;251;;;;vpos;;v;;r;;d1,250;;b1,0;;msql;;pisMaster;;p">
+					<treenode node="isMaster;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f33;249;42;249;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="sql;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f27;249;31;249;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="autoExecute;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f4;544;5;565;;;;vpos;;v;;r;;d78,544;;b0,0;;mtable;;parrField;;pmode;;pwhere;;pisMaster;;p">
+					<treenode node="arrField;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f33;544;42;544;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="isMaster;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f62;544;71;544;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="mode;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f44;544;49;544;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="table;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f25;544;31;544;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="where;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f51;544;57;544;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="close;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f14;233;5;236;;;;vpos;;v;;r;;d1,234;;b2,0;;mdbConn;;pcloseAll;;p">
+					<treenode node="closeAll;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f43;233;52;233;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="dbConn;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f29;233;36;233;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="colArray;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f8;268;2;271;;;;vpos;;v;;r;;d1,269;;b1,0;;m">
+				</treenode>
+				<treenode node="commit;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f4;644;5;649;;;;vpos;;v;;r;;d21,644;;b0,0;;m">
+				</treenode>
+				<treenode node="connDb;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f14;226;5;228;;;;vpos;;v;;r;;d1,227;;b2,0;;mdbHost;;pdbUser;;pdbPasswd;;pdbDatabase;;p">
+					<treenode node="dbDatabase;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f59;226;70;226;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="dbHost;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f30;226;37;226;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="dbPasswd;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f48;226;57;226;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="dbUser;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f39;226;46;226;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="count;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f11;757;5;759;;;;vpos;;v;;r;;d56,757;;b1,0;;marrField;;pnotFields;;ptable;;p">
+					<treenode node="arrField;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f26;757;35;757;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="notFields;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f37;757;47;757;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="table;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f49;757;55;757;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="delete;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f8;288;5;747;;;;vpos;;v;;r;;d35,731;;b1,0;;mwhere;;ptable;;p">
+					<treenode node="table;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f28;731;34;731;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="where;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f20;731;26;731;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="exec;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f11;678;5;680;;;;vpos;;v;;r;;d30,678;;b1,0;;msql;;p">
+					<treenode node="sql;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f25;678;29;678;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="execute;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f8;253;5;533;;;;vpos;;v;;r;;d33,528;;b1,0;;msql;;p">
+					<treenode node="sql;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f28;528;32;528;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="get;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f4;153;5;155;;;;vpos;;vvoid;;r 璇诲彇绫诲睘鎬?;;d22,153;;b0,0;;mstr $key;;p">
+					<treenode node="key;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f17;153;21;153;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="getAffectedRows;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f4;799;5;805;;;;vpos;;v;;r;;d30,799;;b0,0;;m">
+				</treenode>
+				<treenode node="getAll;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f11;321;5;336;;;;vpos;;v;;r;;d49,321;;b1,0;;msql;;pisMaster;;p">
+					<treenode node="isMaster;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f33;321;42;321;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="sql;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f27;321;31;321;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="getCol;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f4;366;5;385;;;;vpos;;v;;r;;d53,366;;b0,0;;msql;;pfield;;pisMaster;;p">
+					<treenode node="field;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f26;366;32;366;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="isMaster;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f37;366;46;366;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="sql;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f20;366;24;366;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="getCount;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f4;574;5;593;;;;vpos;;v;;r;;d52,574;;b0,0;;marrField;;pnotFields;;ptable;;p">
+					<treenode node="arrField;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f22;574;31;574;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="notFields;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f33;574;43;574;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="table;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f45;574;51;574;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="getCurrConnection;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f4;839;5;841;;;;vpos;;v;;r;;d32,839;;b0,0;;m">
+				</treenode>
+				<treenode node="getDBRecord;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f4;830;5;832;;;;vpos;;v;;r;;d26,830;;b0,0;;m">
+				</treenode>
+				<treenode node="getDbWriteConn;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f4;209;5;221;;;;vpos;;v;;r;;d29,209;;b0,0;;m">
+				</treenode>
+				<treenode node="getError;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f4;857;5;859;;;;vpos;;v;;r;;d23,857;;b0,0;;m">
+				</treenode>
+				<treenode node="getEscapeString;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f8;303;2;897;;;;vpos;;v;;r;;d31,892;;b1,0;;mstr;;p">
+					<treenode node="str;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f26;892;30;892;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="getLastId;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f8;293;5;780;;;;vpos;;v;;r;;d24,774;;b1,0;;m">
+				</treenode>
+				<treenode node="getLastSql;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f8;298;5;823;;;;vpos;;v;;r;;d25,821;;b1,0;;m">
+				</treenode>
+				<treenode node="getNumRows;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f4;787;5;792;;;;vpos;;v;;r;;d34,787;;b0,0;;mres;;p">
+					<treenode node="res;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f24;787;28;787;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="getOne;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f4;393;5;411;;;;vpos;;v;;r;;d53,393;;b0,0;;msql;;pfield;;pisMaster;;p">
+					<treenode node="field;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f26;393;32;393;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="isMaster;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f37;393;46;393;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="sql;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f20;393;24;393;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="getRecord;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f4;426;5;435;;;;vpos;;v;;r;;d107,426;;b0,0;;mtable;;pfield;;pwhere;;porder;;plimit;;psingle;;pisMaster;;p">
+					<treenode node="field;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f31;426;37;426;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="isMaster;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f91;426;100;426;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="limit;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f65;426;71;426;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="order;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f54;426;60;426;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="single;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f76;426;83;426;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="table;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f23;426;29;426;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="where;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f43;426;49;426;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="getRecordByLimit;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f4;473;5;479;;;;vpos;;v;;r;;d107,473;;b0,0;;mtable;;pstartPos;;poffset;;pfield;;pwhere;;poder;;pisMaster;;p">
+					<treenode node="field;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f58;473;64;473;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="isMaster;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f91;473;100;473;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="oder;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f81;473;86;473;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="offset;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f49;473;56;473;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="startPos;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f38;473;47;473;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="table;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f30;473;36;473;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="where;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f70;473;76;473;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="getRecordByOrder;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f4;492;5;499;;;;vpos;;v;;r;;d117,492;;b0,0;;mtable;;porderField;;porderMethod;;pfield;;pwhere;;plimit;;pisMaster;;p">
+					<treenode node="field;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f67;492;73;492;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="isMaster;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f101;492;110;492;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="limit;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f90;492;96;492;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="orderField;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f38;492;49;492;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="orderMethod;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f51;492;63;492;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="table;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f30;492;36;492;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="where;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f79;492;85;492;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="getRecordByWhere;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f4;447;5;460;;;;vpos;;v;;r;;d115,447;;b0,0;;mtable;;pfield;;pwhere;;parrOrder;;parrLimit;;pisMaster;;p">
+					<treenode node="arrLimit;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f80;447;89;447;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="arrOrder;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f61;447;70;447;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="field;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f38;447;44;447;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="isMaster;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f99;447;108;447;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="table;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f30;447;36;447;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="where;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f50;447;56;447;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="getRow;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f4;344;5;357;;;;vpos;;v;;r;;d42,344;;b0,0;;msql;;pisMaster;;p">
+					<treenode node="isMaster;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f26;344;35;344;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="sql;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f20;344;24;344;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="getRunTime;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f4;866;5;871;;;;vpos;;v;;r;;d25,866;;b0,0;;m">
+				</treenode>
+				<treenode node="getTime;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f4;880;5;883;;;;vpos;;v;;r;;d22,880;;b0,0;;m">
+				</treenode>
+				<treenode node="insert;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f8;278;5;706;;;;vpos;;v;;r;;d38,704;;b1,0;;marrField;;ptable;;p">
+					<treenode node="arrField;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f20;704;29;704;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="table;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f31;704;37;704;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="isError;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f4;848;5;850;;;;vpos;;v;;r;;d22,848;;b0,0;;m">
+				</treenode>
+				<treenode node="limit_query;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f4;509;5;514;;;;vpos;;v;;r;;d67,509;;b0,0;;msql;;pstartPos;;poffset;;pisMaster;;p">
+					<treenode node="isMaster;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f51;509;60;509;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="offset;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f42;509;49;509;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="sql;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f25;509;29;509;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="startPos;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f31;509;40;509;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="lockTable;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f4;602;5;604;;;;vpos;;v;;r;;d32,602;;b0,0;;mtblName;;p">
+					<treenode node="tblName;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f23;602;31;602;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="query;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f4;689;5;695;;;;vpos;;v;;r;;d24,689;;b0,0;;msql;;p">
+					<treenode node="sql;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f19;689;23;689;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="resultArray;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f8;258;2;261;;;;vpos;;v;;r;;d1,259;;b1,0;;m">
+				</treenode>
+				<treenode node="rollback;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f4;657;5;662;;;;vpos;;v;;r;;d23,657;;b0,0;;m">
+				</treenode>
+				<treenode node="rowArray;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f8;263;2;266;;;;vpos;;v;;r;;d1,264;;b1,0;;m">
+				</treenode>
+				<treenode node="rowColOne;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f8;273;2;276;;;;vpos;;v;;r;;d1,274;;b1,0;;m">
+				</treenode>
+				<treenode node="selectDb;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f4;241;5;244;;;;vpos;;v;;r;;d1,242;;b0,0;;mdbName;;pdbConn;;p">
+					<treenode node="dbConn;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f31;241;38;241;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="dbName;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f22;241;29;241;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="set;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f4;143;5;145;;;;vpos;;vvoid;;r 璁剧疆绫诲睘鎬?;;d30,143;;b0,0;;mstr $key;;pstr $value;;p">
+					<treenode node="key;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f17;143;21;143;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="value;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f23;143;29;143;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="setAutoCommit;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f4;623;5;626;;;;vpos;;v;;r;;d47,623;;b0,0;;mautoCommit;;p">
+					<treenode node="autoCommit;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f27;623;38;623;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="startTransaction;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f4;633;5;637;;;;vpos;;v;;r;;d31,633;;b0,0;;m">
+				</treenode>
+				<treenode node="TM_DB_Mysql;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f4;186;5;204;;;;vpos;;vvoid;;r 鏋勯€犲嚱鏁?;;d77,186;;b0,0;;mmasterConf;;pslaveConf;;psingleHost;;p">
+					<treenode node="masterConf;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f25;186;36;186;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="singleHost;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f58;186;69;186;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="slaveConf;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f38;186;48;186;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="unlockTable;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f4;612;5;614;;;;vpos;;v;;r;;d34,612;;b0,0;;mtblName;;p">
+					<treenode node="tblName;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f25;612;33;612;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="update;PHP:Function Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f8;283;5;721;;;;vpos;;v;;r;;d46,716;;b1,0;;marrField;;pwhere;;ptable;;p">
+					<treenode node="arrField;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f20;716;29;716;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="table;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f39;716;45;716;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="where;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f31;716;37;716;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="currConn;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f8;48;17;48;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="dbCharset;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f8;69;18;69;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="dbRecord;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f8;60;17;60;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="dbResult;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f8;56;17;56;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="dbSql;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f8;65;14;65;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="dbVersion;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f8;73;18;73;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="errMsg;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f8;117;15;117;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="fetchMode;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f8;87;18;87;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="isCharset;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f8;83;18;83;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="isError;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f8;113;16;113;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="isExit;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f8;109;15;109;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="isInitConn;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f8;79;19;79;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="isLog;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f8;91;14;91;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="isRuntime;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f8;121;18;121;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="logFile;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f8;105;16;105;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="logSqlLevel;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f8;101;20;101;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="rdbConf;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f8;36;16;36;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="rdbConn;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f8;44;16;44;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="runTime;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f8;125;16;125;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="singleHost;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f8;52;19;52;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="wdbConf;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f8;35;16;35;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="wdbConn;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php;f8;40;16;40;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="a;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\test.php;f0;4;2;4;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="active_group;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Codelobster0.php;f0;1;13;1;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\config.php;f0;1;13;1;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="data;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\test.php;f0;14;5;14;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="db;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as\Database\Codelobster0.php;f0;3;3;3;;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\config.php;f0;3;3;3;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="link1;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\test.php;f0;5;6;5;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="link2;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\test.php;f0;6;6;6;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="link3;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\test.php;f0;7;6;7;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="link4;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\test.php;f0;8;6;8;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="link5;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\test.php;f0;9;6;9;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="link6;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\test.php;f0;10;6;10;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="result;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\test.php;f0;13;7;13;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="row;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\test.php;f6;15;10;15;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="sql;PHP:Var Name;C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\test.php;f0;12;4;12;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+		</phptree>
+		<jstree>
+		</jstree>
+		<file name="C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\db.clpprj" crc="1745688997"/>
+		<file name="C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Exception\Sqlite.php" crc="-664992860"/>
+		<file name="C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Exception\Postgresql.php" crc="1432864833"/>
+		<file name="C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Exception\Oracle.php" crc="-495151681"/>
+		<file name="C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Exception\Mysql.php" crc="1741941374"/>
+		<file name="C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\TM_Mysql.php" crc="1254886726"/>
+		<file name="C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Sqlite.php" crc="-984065941"/>
+		<file name="C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Postgresql.php" crc="-693354197"/>
+		<file name="C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Oracle.php" crc="-1439654679"/>
+		<file name="C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\O_Mysql.php" crc="-1544150075"/>
+		<file name="C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Driver\Mysql.php" crc="-448294006"/>
+		<file name="C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\test.php" crc="-141894785"/>
+		<file name="C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\Db.php" crc="-322816550"/>
+		<file name="C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\constants.php" crc="-266209659"/>
+		<file name="C:\Users\chinkei.chen\Desktop\module_as\module_as_cy\Database\config.php" crc="1430575563"/>
+	</codestructure><dbgurls>
+	</dbgurls>
+</project>

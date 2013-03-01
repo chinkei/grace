@@ -464,7 +464,7 @@ class Grace_IO_Output
 	 * @param  string $data 字符数据
 	 * @return string
 	 */
-	public function compress($data, $level = 9)
+	protected function _compress($data, $level = 9)
 	{
 		// 是否使用压缩
 		if ( $level === FALSE || $level < 1) {
@@ -533,6 +533,10 @@ class Grace_IO_Output
 			$data .= $content;
 		}
 		
-		echo $this->compress($data);
+		if (USE_COMPRESS === TRUE) {
+			echo $this->_compress($data);
+		} else {
+			echo $data;
+		}
 	}
 } 

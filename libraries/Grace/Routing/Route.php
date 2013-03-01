@@ -151,7 +151,7 @@ class Grace_Routing_Route
 	protected $_default_params = array(
 		'name'        => NULL,
 		'path'        => NULL,
-		'pattern' => NULL,
+		'pattern'     => NULL,
 		'parameters'  => NULL,
 		'method'      => NULL,
 		'secure'      => NULL,

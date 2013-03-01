@@ -11,8 +11,8 @@ if ( ! defined('APP_NAME')) exit('No direct script access allowed');
 /**
  * 实现命名空间功能
  *
- * @param  array $className 类名
- * @param  array $location  地址前缀
+ * @param  string $className 类名
+ * @param  string $location  地址前缀
  * @return void
  */
 function uses($className, $location = LIB_PATH)
@@ -81,11 +81,11 @@ function import_file($path, $isRequire = TRUE, $base = LIB_PATH)
  */
 function import_class($class, $isRequire = TRUE, $base = LIB_PATH)
 {
-	$arrPath  = explode('_', trim($class, '_'));
-	$filePath = $base . '/' . implode('/', array_map('ucfirst', $arrPath) ) . '.php';
+	$strPath = trim($class, '_');
+	$filePath = $base . '/' . str_replace('_', '/', $strPath) . '.php';
 	
 	if ( ! file_exists($filePath) ) {
-		throw new Exception('file : "' . implode('/', array_map('ucfirst', $arrPath) ) . '" is not exists');
+		throw new Exception('file : "' . str_replace('_', '/', $strPath) . '" is not exists');
 	}
 	return ( $isRequire === TRUE ) ? require $filePath : include $filePath;
 }

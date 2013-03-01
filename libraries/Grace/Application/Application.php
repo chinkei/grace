@@ -69,6 +69,8 @@ class Grace_Application_Application
 	{
 		// 载入公共方法
 		require LIB_PATH . '/Grace/Utility/Functions.php';
+		// 载入常量配置文件
+		require APP_PATH . '/config/constant.php';
 		
 		// 引入注入容器类
 		uses('Grace_Ioc_Ioc');
@@ -113,6 +115,7 @@ class Grace_Application_Application
 	protected static function _initApp()
 	{
 		$output = Grace_Ioc_Ioc::resolve('output');
+		
 		$output->startBuffer();
 		$output->setContentType('html');
 		
@@ -130,7 +133,7 @@ class Grace_Application_Application
 	{
 		uses('Grace_Mvc_Dispatcher');
 		$dispatcher = new Grace_Mvc_Dispatcher();
-		$dispatcher->execute();
+		$dispatcher->execute(Grace_Ioc_Ioc::resolve('input'), Grace_Ioc_Ioc::resolve('output'));
 	}
 	
 	/**

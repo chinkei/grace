@@ -9,9 +9,13 @@ class Grace_Mvc_View_Driver_Simple implements Grace_Mvc_View_Interface
 	
 	protected $_tpl_var = array();
 	
-	public function __construct($module)
+	public function __construct($module = FALSE)
 	{
-		$this->view_dir = APP_PATH . '/module/' . $module;
+		if ( $module === FALSE ) {
+			$this->template_dir = APP_PATH . '/module/' . $module.'/view';
+		} else {
+			$this->template_dir = APP_PATH . '/view';
+		}
 	}
 	
 	public function setViewDir($path)

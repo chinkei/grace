@@ -66,7 +66,7 @@ class Grace_Routing_Mapper
             $this->attach($path_prefix, $rule);
         }
 		
-		$path = ( IS_HMVC === TRUE ) ? '/{:module}/{:contrl}/{:action}/*' : '/{:contrl}/{:action}/*';
+		$path = ( IS_HMVC === TRUE ? '/{:module}' : '' ) . '/*';
 		// 添加默认路由
 		$this->addRoute('default', $path);
     }

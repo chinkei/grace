@@ -26,11 +26,11 @@ class Grace_Load_Load
 	protected $_language = array();
 	protected $_helper   = array();
 	
-	public function view($module, $driver = 'simple')
+	public function view($driver = 'simple', $module = FALSE)
 	{
 		$driver = strtolower($driver);
-		$view   = NULL;
 		
+		$view   = NULL;
 		switch ($driver) {
 			case 'simple':
 				$view = new Grace_Mvc_View_Driver_Simple($module);
@@ -57,14 +57,17 @@ class Grace_Load_Load
 	/**
 	 * 载入Model处理类
 	 */
-	public function model($name, $module)
+	public function model($name, $module = FALSE)
 	{
-		$class = $module . '_' . $name . '_mdl';
+		$class = ( $module !== FALSE ) ? $module . '_' . $name . '_mdl' : $name . '_mdl';
 		
 		if ( !isset($this->_model[$class]) ) {
-			require_once APP_PATH . '/module/' . $module  . '/model/' . $name . '.php';
+			$modelFile = APP_PATH . ( $module !== FALSE ? '/module/' . $module : '' ) . '/model/' . $name . '.php';
+			require_once $modelFile;
+			
 			$this->_model[$class] = new $class;
 		}
+		
 		return $this->_model[$class];
 	}
 	
@@ -112,9 +115,18 @@ class Grace_Load_Load
 		
 	}
 	
-	public function helper($path, $base = LIB_PATH)
+	public function helper($file, $base = LIB_PATH)
 	{
-		import_file($path, TRUE, $base);
+		$base = rtrim($base, '/');
+		
+		if ($base == LIB_PATH) {
+			$file = ucfirst($file);
+			$base = $base . '/Grace/Helper';
+		} else {
+			$base = $base . '/helper';
+		}
+		
+		import_file($file, TRUE, $base);
 	}
 }
 ?>

@@ -1,8 +1,6 @@
 <?php
 uses('Grace_Mvc_View_Interface');
 
-define('APPNAME', 'Grace');
-define('VERSION', '1.0.1');
 class Grace_Mvc_View_Driver_Template implements Grace_Mvc_View_Interface
 {
 	public $template_dir   = '';
@@ -28,13 +26,18 @@ class Grace_Mvc_View_Driver_Template implements Grace_Mvc_View_Interface
     private $_temp_key      = array();  // 临时存放 foreach 里 key 的数组
     private $_temp_val      = array();  // 临时存放 foreach 里 item 的数组
 
-    public function __construct($module)
+    public function __construct($module = FALSE)
     {
         $this->_errorlevel  = error_reporting();
         $this->_nowtime     = time();
 		//$this->caching      = $use_cache;
 		
-        $this->template_dir = APP_PATH . '/module/' . $module.'/view';
+		if ( $module !== FALSE ) {
+			$this->template_dir = APP_PATH . '/module/' . $module.'/view';
+		} else {
+			$this->template_dir = APP_PATH . '/view';
+		}
+		
 		$this->compile_dir  = APP_PATH . '/_data/_compile/' . $module;
     }
 	
@@ -237,7 +240,7 @@ class Grace_Mvc_View_Driver_Template implements Grace_Mvc_View_Interface
             $source = $this->fetch_str(file_get_contents($filename));
         
 			/* 在头部加入版本信息 */
-            $source = preg_replace('/<head>/i', "<head>\r\n<meta name=\"Generator\" content=\"" . APPNAME .' ' . VERSION . "\" />",  $source);
+            $source = preg_replace('/<head>/i', "<head>\r\n<meta name=\"Generator\" content=\"" . FRAME_NAME .' ' . VERSION . "\" />",  $source);
             
 			$dir = dirname($name);
 			!is_dir($dir) && mkdir($dir, 0777);

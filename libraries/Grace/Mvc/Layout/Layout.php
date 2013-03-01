@@ -26,11 +26,11 @@ class Grace_Mvc_Layout_Layout
 	 * @param  string $engine    解析方式
 	 * @return void
 	 */
-	public function render($name, $component, $engine = 'simple', $args = array())
+	public function render($name, $component, $engine = 'simple', $args = NULL)
 	{
 		if ( !isset($this->_views[$name]) ) {
-			$this->_views[$name][$component] = Grace_Ioc_Ioc::resolve('load')->view('_layout', $engine);
-			$this->_views[$name][$component]->setViewDir(APP_PATH . '/layout/view');
+			$this->_views[$name][$component] = Grace_Ioc_Ioc::resolve('load')->view($engine);
+			$this->_views[$name][$component]->setViewDir(APP_PATH . '/_layout/');
 		}
 		
 		if ( !isset($this->_layouts[$name]) ) {
@@ -62,12 +62,13 @@ class Grace_Mvc_Layout_Layout
 	 * @param  array  $args      附件参数
 	 * @return string
 	 */
-	public function result($name, $component, $module = FALSE, $args = array())
+	public function result($name, $component, $engine = 'simple', $args = NULL)
 	{
 		Grace_Ioc_Ioc::resolve('output')->stopBuffer();
 		
 		ob_start();
-		$this->render($name, $component, $args);
+		
+		$this->render($name, $component, $engine);
 		$content = ob_get_contents();
 		ob_end_clean();
 		

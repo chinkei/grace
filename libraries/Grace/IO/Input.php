@@ -17,11 +17,71 @@ uses('Grace_Filter_Filter');
  */
 class Grace_IO_Input
 {
-    /**
-	 * 构造函数
-	 */
-	public function __construct()
+	
+	protected $_module = '';
+	protected $_contrl = '';
+	protected $_action = '';
+	
+	protected $_params = array();
+	
+	public function setModule($module)
 	{
+		$this->_module = $module;
+	}
+	
+	public function getModule()
+	{
+		return $this->_module;
+	}
+	
+	public function setContrl($contrl)
+	{
+		$this->_contrl = $contrl;
+	}
+	
+	public function getContrl()
+	{
+		return $this->_contrl;
+	}
+	
+	public function setAction($action)
+	{
+		$this->_action = $action;
+	}
+	
+	public function getAction()
+	{
+		return $this->_action;
+	}
+	
+	public function setParams($params)
+	{
+		$this->_params = $params;
+	}
+	
+	public function getParams($index = '', $isAll = FALSE)
+	{
+		if ($isAll === TRUE) {
+			$params = array();
+			foreach (array('Module', 'Contrl', 'Action') as $val) {
+				$method = 'get'.$val;
+				if ( ( $str = $this->$method() ) != '' ) {
+					$params[] = $str;
+				}
+			}
+			
+			$params = array_merge($params, $this->_params);
+			
+			if ($index == '') {
+				return $params;
+			}
+			return ( isset($params[$index]) ) ? $params[$index] : FALSE;
+		}
+		
+		if ($index == '') {
+			return $this->_params;
+		}
+		return ( isset($this->_params[$index]) ) ? $this->_params[$index] : FALSE;
 	}
 	
 	/**
@@ -96,13 +156,13 @@ class Grace_IO_Input
 	 * @param string $key 需要获取的Key名，空则返回所有数据
 	 * @return mixed
 	 */
-	public function gp($key, $isXss)
+	public function gp($key, $isXss = FALSE)
 	{
 		if (isset($_GET[$key])) {
-			return $this->get($key);
+			return $this->get($key, $isXss);
 		}
 		if (isset($_POST[$key])) {
-			return $this->post($key);
+			return $this->post($key, $isXss);
 		}
 		return FALSE;
 	}

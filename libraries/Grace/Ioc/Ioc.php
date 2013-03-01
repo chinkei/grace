@@ -68,7 +68,7 @@ class Grace_Ioc_Ioc
 				}
 				
 				if ( self::$_register[$name]['is_single'] === TRUE ) {
-					$_singletons[$name] = $object;
+					self::$_singletons[$name] = $object;
 				}
 				return $object;
 				
